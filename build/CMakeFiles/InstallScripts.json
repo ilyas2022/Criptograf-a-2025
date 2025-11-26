@@ -1,0 +1,25 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/vboxuser/Desktop/Ransomware/build/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/common/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/common/sha3/xkcp_low/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/kem/frodokem/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/kem/ntruprime/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/kem/ntru/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/kem/classic_mceliece/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/kem/kyber/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/kem/ml_kem/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/ml_dsa/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/falcon/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/sphincs/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/mayo/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/cross/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/uov/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/snova/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/src/sig/slh_dsa/cmake_install.cmake",
+		"C:/Users/vboxuser/Desktop/Ransomware/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

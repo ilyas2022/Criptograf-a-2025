@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\sig_sphincs_shake_256f_simple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\address.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\context_shake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\fors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\hash_shake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\merkle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\thash_shake_simple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\utilsx1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\wots.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\pqclean_sphincs-shake-256f-simple_clean\wotsx1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\sphincs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C91C7BD-84F1-3384-AC4F-77139785C2CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

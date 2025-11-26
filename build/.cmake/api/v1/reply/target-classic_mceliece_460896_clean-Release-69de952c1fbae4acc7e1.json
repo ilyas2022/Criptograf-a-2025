@@ -1,0 +1,375 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/kem_classic_mceliece_460896.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/aes256ctr.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/benes.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/bm.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/controlbits.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/crypto_int16.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/crypto_int32.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/crypto_uint16.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/crypto_uint32.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/crypto_uint64.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/decrypt.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/encrypt.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/gf.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/operations.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/pk_gen.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/root.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/sk_gen.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/synd.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/transpose.obj"
+		},
+		{
+			"path" : "src/kem/classic_mceliece/classic_mceliece_460896_clean.dir/Release/util.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/kem/classic_mceliece/CMakeLists.txt",
+			".CMake/compiler_opts.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 299,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -std:c11 -MD"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4146"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/MT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/build/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/kem/classic_mceliece/pqclean_mceliece460896_clean"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/common/pqclean_shims"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "classic_mceliece_460896_clean::@9a846f10e3efeba57a99",
+	"name" : "classic_mceliece_460896_clean",
+	"paths" : 
+	{
+		"build" : "src/kem/classic_mceliece",
+		"source" : "src/kem/classic_mceliece"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/kem_classic_mceliece_460896.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/aes256ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/benes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/bm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/controlbits.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/crypto_int16.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/crypto_int32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/crypto_uint16.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/crypto_uint32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/crypto_uint64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/decrypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/encrypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/gf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/operations.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/pk_gen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/root.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/sk_gen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/synd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/transpose.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/classic_mceliece/pqclean_mceliece460896_clean/util.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED053438-16B3-3538-BE58-A950EB7DF52A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>run_tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\1f121c3831ca5ca4e77f3c0c837ab6c1\run_tests.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\vboxuser\Desktop\Ransomware\liboqs
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env OQS_BUILD_DIR=C:/Users/vboxuser/Desktop/Ransomware/build python -m pytest --verbose --numprocesses=auto --ignore=scripts/copy_from_upstream/repos --ignore=tests/test_kat_all.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\lib\Debug\oqs.lib;C:\Users\vboxuser\Desktop\Ransomware\build\tests\dump_alg_info.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\Debug\kat_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\Debug\test_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\Debug\speed_sig_stfl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\run_tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\vboxuser\Desktop\Ransomware\liboqs
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env OQS_BUILD_DIR=C:/Users/vboxuser/Desktop/Ransomware/build python -m pytest --verbose --numprocesses=auto --ignore=scripts/copy_from_upstream/repos --ignore=tests/test_kat_all.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\lib\Release\oqs.lib;C:\Users\vboxuser\Desktop\Ransomware\build\tests\dump_alg_info.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\Release\kat_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\Release\test_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\Release\speed_sig_stfl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\run_tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\vboxuser\Desktop\Ransomware\liboqs
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env OQS_BUILD_DIR=C:/Users/vboxuser/Desktop/Ransomware/build python -m pytest --verbose --numprocesses=auto --ignore=scripts/copy_from_upstream/repos --ignore=tests/test_kat_all.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\lib\MinSizeRel\oqs.lib;C:\Users\vboxuser\Desktop\Ransomware\build\tests\dump_alg_info.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\MinSizeRel\kat_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\MinSizeRel\test_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\MinSizeRel\speed_sig_stfl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\run_tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\vboxuser\Desktop\Ransomware\liboqs
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env OQS_BUILD_DIR=C:/Users/vboxuser/Desktop/Ransomware/build python -m pytest --verbose --numprocesses=auto --ignore=scripts/copy_from_upstream/repos --ignore=tests/test_kat_all.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\lib\RelWithDebInfo\oqs.lib;C:\Users\vboxuser\Desktop\Ransomware\build\tests\dump_alg_info.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_kem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_mem.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_sig.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\RelWithDebInfo\kat_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\RelWithDebInfo\test_sig_stfl.exe;C:\Users\vboxuser\Desktop\Ransomware\build\tests\RelWithDebInfo\speed_sig_stfl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\run_tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\CMakeFiles\run_tests">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\ZERO_CHECK.vcxproj">
+      <Project>{C43E96CA-5199-31DA-8F37-677F8D5DE6C7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\dump_alg_info.vcxproj">
+      <Project>{271D1326-E43B-383F-9362-97D27C61B8B8}</Project>
+      <Name>dump_alg_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_kem.vcxproj">
+      <Project>{BB515515-00A9-3B3A-9610-2896A171A2E6}</Project>
+      <Name>example_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig.vcxproj">
+      <Project>{D31D43F5-2648-3256-B8B0-E92B9C23D1D4}</Project>
+      <Name>example_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_kem.vcxproj">
+      <Project>{7D16CEBA-DD39-3B78-B964-028473DBCF7B}</Project>
+      <Name>kat_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig.vcxproj">
+      <Project>{9FC1EE71-31C4-38C0-BB78-1A02DA617865}</Project>
+      <Name>kat_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig_stfl.vcxproj">
+      <Project>{900245A4-410E-3D16-AF93-1E63236BBE97}</Project>
+      <Name>kat_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\oqs.vcxproj">
+      <Project>{9D9682C0-5C1C-3FF1-BB4E-ECE61EF675B1}</Project>
+      <Name>oqs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_kem.vcxproj">
+      <Project>{53879AB7-8917-3CCE-B110-2475982A4488}</Project>
+      <Name>speed_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig.vcxproj">
+      <Project>{ACF29AB1-E43A-31CF-B590-3B9A45207B42}</Project>
+      <Name>speed_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig_stfl.vcxproj">
+      <Project>{E4E4589E-65A5-3B99-86E7-F9110549CD9A}</Project>
+      <Name>speed_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem.vcxproj">
+      <Project>{568B180D-02CC-3E75-B822-A444789CD8F2}</Project>
+      <Name>test_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem_mem.vcxproj">
+      <Project>{87D6B1A0-22B3-326C-A912-A864DDFD3904}</Project>
+      <Name>test_kem_mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig.vcxproj">
+      <Project>{2A11F17D-F205-3985-B6E9-81B6379CB155}</Project>
+      <Name>test_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_mem.vcxproj">
+      <Project>{A92A24E4-761C-3A92-8CC2-67863E243ABD}</Project>
+      <Name>test_sig_mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_stfl.vcxproj">
+      <Project>{D6CFAC50-27A1-31DC-B76A-C80C8C7EFE25}</Project>
+      <Name>test_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_kem.vcxproj">
+      <Project>{47E3E879-AEFF-37FA-9FC6-26FCE79CEE59}</Project>
+      <Name>vectors_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_sig.vcxproj">
+      <Project>{9F72B577-5A76-3D77-B6AA-54A95540B6FE}</Project>
+      <Name>vectors_sig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

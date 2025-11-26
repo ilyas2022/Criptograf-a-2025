@@ -1,0 +1,269 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/kem_ml_kem_768.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/compress.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/debug.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/indcpa.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/kem.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/poly.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/poly_k.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/sampling.obj"
+		},
+		{
+			"path" : "src/kem/ml_kem/ml_kem_768_ref.dir/Release/verify.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/kem/ml_kem/CMakeLists.txt",
+			".CMake/compiler_opts.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 299,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -std:c11 -MD"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4146"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/MT"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DMLK_CONFIG_PARAMETER_SET=768"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DMLK_CONFIG_FILE=\\\"../../integration/liboqs/config_c.h\\\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/build/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/kem/ml_kem/mlkem-native_ml-kem-768_ref"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/common/pqclean_shims"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ml_kem_768_ref::@a33390aeffc8ecb31e6f",
+	"name" : "ml_kem_768_ref",
+	"paths" : 
+	{
+		"build" : "src/kem/ml_kem",
+		"source" : "src/kem/ml_kem"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/kem_ml_kem_768.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/indcpa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/kem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/poly.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/poly_k.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/sampling.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/ml_kem/mlkem-native_ml-kem-768_ref/mlkem/src/verify.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

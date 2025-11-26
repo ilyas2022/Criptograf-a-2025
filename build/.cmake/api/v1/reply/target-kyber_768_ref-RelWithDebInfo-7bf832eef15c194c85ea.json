@@ -1,0 +1,276 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/kem_kyber_768.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/cbd.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/indcpa.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/kem.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/ntt.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/poly.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/polyvec.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/reduce.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/symmetric-shake.obj"
+		},
+		{
+			"path" : "src/kem/kyber/kyber_768_ref.dir/RelWithDebInfo/verify.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/kem/kyber/CMakeLists.txt",
+			".CMake/compiler_opts.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 299,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /O2 /Ob1 /DNDEBUG -std:c11 -MD"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4146"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/MT"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DKYBER_K=3"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/build/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/kem/kyber/pqcrystals-kyber_kyber768_ref"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/common/pqclean_shims"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "kyber_768_ref::@1211926cef22de40457e",
+	"name" : "kyber_768_ref",
+	"paths" : 
+	{
+		"build" : "src/kem/kyber",
+		"source" : "src/kem/kyber"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/kem_kyber_768.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/cbd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/indcpa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/kem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/ntt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/poly.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/polyvec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/reduce.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/symmetric-shake.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kem/kyber/pqcrystals-kyber_kyber768_ref/verify.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

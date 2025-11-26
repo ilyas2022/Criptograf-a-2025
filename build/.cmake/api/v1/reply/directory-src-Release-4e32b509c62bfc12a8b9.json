@@ -1,0 +1,147 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/liboqs",
+			"paths" : 
+			[
+				"C:/Users/vboxuser/Desktop/Ransomware/build/src/liboqsConfig.cmake",
+				"C:/Users/vboxuser/Desktop/Ransomware/build/src/liboqsConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"C:/Users/vboxuser/Desktop/Ransomware/build/src/liboqs.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/Release/oqs.lib"
+			],
+			"targetId" : "oqs::@145eef247bfb46b6828c",
+			"targetIndex" : 87,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/liboqs",
+			"exportName" : "liboqsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "oqs::@145eef247bfb46b6828c",
+					"index" : 87
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/c7e97583fbc7c9ca02085e7795e05761/liboqsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/oqs",
+			"paths" : 
+			[
+				"src/oqs.h",
+				"src/common/aes/aes_ops.h",
+				"src/common/common.h",
+				"src/common/rand/rand.h",
+				"src/common/sha2/sha2_ops.h",
+				"src/common/sha3/sha3_ops.h",
+				"src/common/sha3/sha3x4_ops.h",
+				"src/kem/kem.h",
+				"src/sig/sig.h",
+				"src/sig_stfl/sig_stfl.h",
+				"src/kem/frodokem/kem_frodokem.h",
+				"src/kem/ntruprime/kem_ntruprime.h",
+				"src/kem/ntru/kem_ntru.h",
+				"src/kem/classic_mceliece/kem_classic_mceliece.h",
+				"src/kem/kyber/kem_kyber.h",
+				"src/kem/ml_kem/kem_ml_kem.h",
+				"src/sig/ml_dsa/sig_ml_dsa.h",
+				"src/sig/falcon/sig_falcon.h",
+				"src/sig/sphincs/sig_sphincs.h",
+				"src/sig/mayo/sig_mayo.h",
+				"src/sig/cross/sig_cross.h",
+				"src/sig/uov/sig_uov.h",
+				"src/sig/snova/sig_snova.h",
+				"src/sig/slh_dsa/sig_slh_dsa.h",
+				"C:/Users/vboxuser/Desktop/Ransomware/build/include/oqs/oqsconfig.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

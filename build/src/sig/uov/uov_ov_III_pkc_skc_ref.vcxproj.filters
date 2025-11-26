@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\sig_uov_ov_III_pkc_skc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\blas_matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\blas_matrix_ref.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\ov.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\ov_keypair.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\ov_keypair_computation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\ov_publicmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\parallel_matrix_op.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\utils_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\utils_prng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\pqov_ov_III_pkc_skc_ref\utils_randombytes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\uov\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C91C7BD-84F1-3384-AC4F-77139785C2CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{51AE7F8E-E13E-3063-9FD6-0E422E58BEDC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vboxuser\Desktop\Ransomware\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectASMLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeASMCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\alg_support.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\cmake_uninstall.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\compiler_opts.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\oqsconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectASMLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeASMCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\alg_support.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\cmake_uninstall.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\compiler_opts.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\oqsconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectASMLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeASMCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\alg_support.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\cmake_uninstall.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\compiler_opts.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\oqsconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vboxuser/Desktop/Ransomware/liboqs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vboxuser/Desktop/Ransomware/liboqs -BC:/Users/vboxuser/Desktop/Ransomware/build --check-stamp-file C:/Users/vboxuser/Desktop/Ransomware/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectASMLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-GNU.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeASMCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\alg_support.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\cmake_uninstall.cmake.in;C:\Users\vboxuser\Desktop\Ransomware\liboqs\.CMake\compiler_opts.cmake;C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\oqsconfig.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vboxuser\Desktop\Ransomware\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\ZERO_CHECK.vcxproj">
+      <Project>{C43E96CA-5199-31DA-8F37-677F8D5DE6C7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_348864_clean.vcxproj">
+      <Project>{62918F82-E1D7-390E-9975-D1C5CF1EDB8A}</Project>
+      <Name>classic_mceliece_348864_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_348864f_clean.vcxproj">
+      <Project>{EA1FABDF-518F-3803-9924-4CBFE01C14E8}</Project>
+      <Name>classic_mceliece_348864f_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_460896_clean.vcxproj">
+      <Project>{1476615B-FA96-31AD-9FDE-2C69F0001B4F}</Project>
+      <Name>classic_mceliece_460896_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_460896f_clean.vcxproj">
+      <Project>{55F1549B-CE71-370A-996C-6EA6816A6DAD}</Project>
+      <Name>classic_mceliece_460896f_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_6688128_clean.vcxproj">
+      <Project>{30207586-E4C8-33F3-9637-2331E57707CF}</Project>
+      <Name>classic_mceliece_6688128_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_6688128f_clean.vcxproj">
+      <Project>{0ABCA804-B648-3C11-B037-522321A43BB6}</Project>
+      <Name>classic_mceliece_6688128f_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_6960119_clean.vcxproj">
+      <Project>{2C4FFEF6-F520-344D-90A7-A478F9D43ADF}</Project>
+      <Name>classic_mceliece_6960119_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_6960119f_clean.vcxproj">
+      <Project>{25E936CF-2EAC-314D-A051-6DF45B5C566A}</Project>
+      <Name>classic_mceliece_6960119f_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_8192128_clean.vcxproj">
+      <Project>{CE80AE5E-438F-335E-84D9-F15D98B7B78E}</Project>
+      <Name>classic_mceliece_8192128_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\classic_mceliece\classic_mceliece_8192128f_clean.vcxproj">
+      <Project>{BA8AC0E4-1093-340C-B31C-FB54ADC8FB9B}</Project>
+      <Name>classic_mceliece_8192128f_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\common\common.vcxproj">
+      <Project>{13AD4FC8-75DB-3FE3-8E84-F0AF51C1FF67}</Project>
+      <Name>common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_128_balanced_avx2.vcxproj">
+      <Project>{B4023C9B-7A83-3BF6-BB2A-45CAB114CD45}</Project>
+      <Name>cross_rsdp_128_balanced_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_128_balanced_clean.vcxproj">
+      <Project>{C3EA553E-3286-307A-BDFE-E263DE27F1E6}</Project>
+      <Name>cross_rsdp_128_balanced_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_128_fast_avx2.vcxproj">
+      <Project>{E3F7A35F-8C11-3D87-94DC-4ABC755F4C47}</Project>
+      <Name>cross_rsdp_128_fast_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_128_fast_clean.vcxproj">
+      <Project>{3FBCBB39-40BB-3058-9A5A-77C6CAC565A7}</Project>
+      <Name>cross_rsdp_128_fast_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_128_small_avx2.vcxproj">
+      <Project>{290FA8A2-69D8-3D7E-94E9-0B121173DD91}</Project>
+      <Name>cross_rsdp_128_small_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_128_small_clean.vcxproj">
+      <Project>{CB13D49C-1F55-3AB2-99E6-65A30571D3FF}</Project>
+      <Name>cross_rsdp_128_small_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_192_balanced_avx2.vcxproj">
+      <Project>{5024B984-8B14-36E8-AD8A-7EA160F71266}</Project>
+      <Name>cross_rsdp_192_balanced_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_192_balanced_clean.vcxproj">
+      <Project>{D81B5002-6921-3CE2-86CE-AE7AEC1D31EE}</Project>
+      <Name>cross_rsdp_192_balanced_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_192_fast_avx2.vcxproj">
+      <Project>{80557579-964A-3E4C-87AC-50767AB9E4EA}</Project>
+      <Name>cross_rsdp_192_fast_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_192_fast_clean.vcxproj">
+      <Project>{92167B47-2A92-3837-8716-432AAD0BED7B}</Project>
+      <Name>cross_rsdp_192_fast_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_192_small_avx2.vcxproj">
+      <Project>{D930B248-9D30-328B-ADE4-B65B52E52D75}</Project>
+      <Name>cross_rsdp_192_small_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_192_small_clean.vcxproj">
+      <Project>{542E8C02-EF99-3F13-B736-53C856DF426F}</Project>
+      <Name>cross_rsdp_192_small_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_256_balanced_avx2.vcxproj">
+      <Project>{4E9F7F67-33AC-314B-AFC2-0D3D3D38E946}</Project>
+      <Name>cross_rsdp_256_balanced_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_256_balanced_clean.vcxproj">
+      <Project>{500C5313-3A00-3493-B183-DE2B3D381036}</Project>
+      <Name>cross_rsdp_256_balanced_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_256_fast_avx2.vcxproj">
+      <Project>{DC9BD03F-3CB9-379F-8058-FBD0E443E1B2}</Project>
+      <Name>cross_rsdp_256_fast_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_256_fast_clean.vcxproj">
+      <Project>{2D1B8A0F-9927-3580-BD77-355B51216A12}</Project>
+      <Name>cross_rsdp_256_fast_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_256_small_avx2.vcxproj">
+      <Project>{63548137-C005-305B-91F6-A69FC039EFB3}</Project>
+      <Name>cross_rsdp_256_small_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdp_256_small_clean.vcxproj">
+      <Project>{1787BC98-2179-3A42-8704-D71D9C2BB099}</Project>
+      <Name>cross_rsdp_256_small_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_128_balanced_avx2.vcxproj">
+      <Project>{DD51A762-E2B2-37F4-9D8E-EF96D9992CD8}</Project>
+      <Name>cross_rsdpg_128_balanced_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_128_balanced_clean.vcxproj">
+      <Project>{3E7EEB9E-477F-3281-8803-F9840D67BBA1}</Project>
+      <Name>cross_rsdpg_128_balanced_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_128_fast_avx2.vcxproj">
+      <Project>{596E8CA8-6A8D-339F-9F41-BCDB763820AA}</Project>
+      <Name>cross_rsdpg_128_fast_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_128_fast_clean.vcxproj">
+      <Project>{33990489-6F90-3458-B121-39829B4ED23A}</Project>
+      <Name>cross_rsdpg_128_fast_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_128_small_avx2.vcxproj">
+      <Project>{21618A68-6DD4-3439-9841-5794A6BA250C}</Project>
+      <Name>cross_rsdpg_128_small_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_128_small_clean.vcxproj">
+      <Project>{E7AC918D-4E9F-3F9A-955F-EDE1F24F34E1}</Project>
+      <Name>cross_rsdpg_128_small_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_192_balanced_avx2.vcxproj">
+      <Project>{D443C5C1-FAD2-33E4-9B30-8DD73A39B4FC}</Project>
+      <Name>cross_rsdpg_192_balanced_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_192_balanced_clean.vcxproj">
+      <Project>{7F4CDC12-4C27-37AD-B0A0-DD0D2E077CE5}</Project>
+      <Name>cross_rsdpg_192_balanced_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_192_fast_avx2.vcxproj">
+      <Project>{84DEC5B5-244F-33FA-A37C-E047A85DF5E5}</Project>
+      <Name>cross_rsdpg_192_fast_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_192_fast_clean.vcxproj">
+      <Project>{ED8BC18F-2486-3DF2-8A3C-8CEC06A1505F}</Project>
+      <Name>cross_rsdpg_192_fast_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_192_small_avx2.vcxproj">
+      <Project>{A0D57DAA-BED8-3A50-95CF-DA37E0F5BC21}</Project>
+      <Name>cross_rsdpg_192_small_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_192_small_clean.vcxproj">
+      <Project>{2E99636A-270A-3F10-9F61-D3BA2F62E0F5}</Project>
+      <Name>cross_rsdpg_192_small_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_256_balanced_avx2.vcxproj">
+      <Project>{02CF2CD2-D149-38CA-B4B3-CE1E9103453D}</Project>
+      <Name>cross_rsdpg_256_balanced_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_256_balanced_clean.vcxproj">
+      <Project>{1FB8FE8C-0308-39C6-9263-DDABCAD71848}</Project>
+      <Name>cross_rsdpg_256_balanced_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_256_fast_avx2.vcxproj">
+      <Project>{59D18E69-BA1D-3964-8729-5FF89EED1A7E}</Project>
+      <Name>cross_rsdpg_256_fast_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_256_fast_clean.vcxproj">
+      <Project>{9D2FCFF0-6328-355E-AA7D-045B01AD2A3B}</Project>
+      <Name>cross_rsdpg_256_fast_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_256_small_avx2.vcxproj">
+      <Project>{38292266-D308-3E27-8E66-DBFB996C1F1A}</Project>
+      <Name>cross_rsdpg_256_small_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\cross\cross_rsdpg_256_small_clean.vcxproj">
+      <Project>{2BB428FA-C5CB-3AC1-8E3B-ABC8C304D623}</Project>
+      <Name>cross_rsdpg_256_small_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\dump_alg_info.vcxproj">
+      <Project>{271D1326-E43B-383F-9362-97D27C61B8B8}</Project>
+      <Name>dump_alg_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_kem.vcxproj">
+      <Project>{BB515515-00A9-3B3A-9610-2896A171A2E6}</Project>
+      <Name>example_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig.vcxproj">
+      <Project>{D31D43F5-2648-3256-B8B0-E92B9C23D1D4}</Project>
+      <Name>example_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\example_sig_stfl.vcxproj">
+      <Project>{A0D04526-8B36-3A6C-992A-D6D836C7E6C2}</Project>
+      <Name>example_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_1024_avx2.vcxproj">
+      <Project>{8FC61570-5CD6-3EFE-B0C2-F5A2846F335E}</Project>
+      <Name>falcon_1024_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_1024_clean.vcxproj">
+      <Project>{01466BA6-350D-3F49-8146-3CEF08B487AF}</Project>
+      <Name>falcon_1024_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_512_avx2.vcxproj">
+      <Project>{759E3BA2-578B-3676-9E0A-BD9F60DA4476}</Project>
+      <Name>falcon_512_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_512_clean.vcxproj">
+      <Project>{71E7CE28-D5DC-3BCF-825B-782AB2EFEC58}</Project>
+      <Name>falcon_512_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_padded_1024_avx2.vcxproj">
+      <Project>{AC168C61-8282-30E1-B39B-02242A36D32D}</Project>
+      <Name>falcon_padded_1024_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_padded_1024_clean.vcxproj">
+      <Project>{DBAB1E8D-42BD-3650-846D-29C1C083261A}</Project>
+      <Name>falcon_padded_1024_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_padded_512_avx2.vcxproj">
+      <Project>{229A36DD-74FF-3E8C-BF01-1F88125A5FBA}</Project>
+      <Name>falcon_padded_512_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\falcon\falcon_padded_512_clean.vcxproj">
+      <Project>{E99CFA58-2E8D-3BDB-BEC0-7E0CFD5EF3F7}</Project>
+      <Name>falcon_padded_512_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\frodokem\frodokem.vcxproj">
+      <Project>{366D0A74-046C-33BE-AB88-1BFBF29366DB}</Project>
+      <Name>frodokem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\frodokem\frodokem_avx2.vcxproj">
+      <Project>{76FDE02E-2429-35F2-84A9-A5D7B044ECCC}</Project>
+      <Name>frodokem_avx2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\common\internal.vcxproj">
+      <Project>{8AD32C65-DB9B-3C9C-8084-1A681F82C2D6}</Project>
+      <Name>internal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_kem.vcxproj">
+      <Project>{7D16CEBA-DD39-3B78-B964-028473DBCF7B}</Project>
+      <Name>kat_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig.vcxproj">
+      <Project>{9FC1EE71-31C4-38C0-BB78-1A02DA617865}</Project>
+      <Name>kat_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\kat_sig_stfl.vcxproj">
+      <Project>{900245A4-410E-3D16-AF93-1E63236BBE97}</Project>
+      <Name>kat_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\kyber\kyber_1024_ref.vcxproj">
+      <Project>{A3A79BBF-7773-3DF1-8A32-F658681EF1A7}</Project>
+      <Name>kyber_1024_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\kyber\kyber_512_ref.vcxproj">
+      <Project>{3E60AE11-11D8-3B90-927A-F99B32BB09E0}</Project>
+      <Name>kyber_512_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\kyber\kyber_768_ref.vcxproj">
+      <Project>{9C5A66E0-1F4E-33B8-915E-1A63D930D8FB}</Project>
+      <Name>kyber_768_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\mayo\mayo_1_opt.vcxproj">
+      <Project>{9517B573-AB97-34E0-A046-FF33B3CF64DE}</Project>
+      <Name>mayo_1_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\mayo\mayo_2_opt.vcxproj">
+      <Project>{1AE2CC16-3FA4-3922-94B2-223728A67DE6}</Project>
+      <Name>mayo_2_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\mayo\mayo_3_opt.vcxproj">
+      <Project>{B7133FD6-549E-343F-8285-EF43CA2A280C}</Project>
+      <Name>mayo_3_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\mayo\mayo_5_opt.vcxproj">
+      <Project>{07CB8F6B-8D1F-3923-9883-EB06DF85BD9F}</Project>
+      <Name>mayo_5_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\ml_dsa\ml_dsa_44_ref.vcxproj">
+      <Project>{B8580EF5-53EF-3A8E-B2B8-88CF61470822}</Project>
+      <Name>ml_dsa_44_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\ml_dsa\ml_dsa_65_ref.vcxproj">
+      <Project>{13E386CB-CD19-3483-ADCA-72B9A8C54A78}</Project>
+      <Name>ml_dsa_65_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\ml_dsa\ml_dsa_87_ref.vcxproj">
+      <Project>{99903F4C-A86B-3108-8002-C546F009F668}</Project>
+      <Name>ml_dsa_87_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ml_kem\ml_kem_1024_ref.vcxproj">
+      <Project>{5447CBD6-32A2-3A44-BDCF-B8A42FF40589}</Project>
+      <Name>ml_kem_1024_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ml_kem\ml_kem_512_ref.vcxproj">
+      <Project>{41EB72BF-1A0A-3C4A-AFC3-96E0F9EA072C}</Project>
+      <Name>ml_kem_512_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ml_kem\ml_kem_768_ref.vcxproj">
+      <Project>{88592C58-627E-3A7A-882A-FD3B2658B551}</Project>
+      <Name>ml_kem_768_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntru\ntru_hps2048509_clean.vcxproj">
+      <Project>{78CDE733-B7BE-349A-ADB8-B2D012DD4A21}</Project>
+      <Name>ntru_hps2048509_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntru\ntru_hps2048677_clean.vcxproj">
+      <Project>{6DD1CFA5-24C3-3487-AD3F-A6C4B6B2578E}</Project>
+      <Name>ntru_hps2048677_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntru\ntru_hps40961229_clean.vcxproj">
+      <Project>{6ADBE726-65BA-38BF-9992-D13C4A35FB0E}</Project>
+      <Name>ntru_hps40961229_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntru\ntru_hps4096821_clean.vcxproj">
+      <Project>{E569C956-DF75-3121-9017-F20FD9397693}</Project>
+      <Name>ntru_hps4096821_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntru\ntru_hrss1373_clean.vcxproj">
+      <Project>{CCA4FAE6-8BBE-3D83-AA4F-8EE89ABEBE03}</Project>
+      <Name>ntru_hrss1373_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntru\ntru_hrss701_clean.vcxproj">
+      <Project>{4442645F-2A77-3007-A4CE-778585912BFE}</Project>
+      <Name>ntru_hrss701_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\kem\ntruprime\ntruprime_sntrup761_clean.vcxproj">
+      <Project>{A1ACAF7B-8837-3700-9887-A5C78A1D7755}</Project>
+      <Name>ntruprime_sntrup761_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\oqs.vcxproj">
+      <Project>{9D9682C0-5C1C-3FF1-BB4E-ECE61EF675B1}</Project>
+      <Name>oqs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\oqs-internal.vcxproj">
+      <Project>{25767726-7E1C-3400-A78B-9EE7EA7D75A1}</Project>
+      <Name>oqs-internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\slh_dsa\slh_dsa_c.vcxproj">
+      <Project>{E26E04B3-087F-3D76-827E-CAA827A85FC0}</Project>
+      <Name>slh_dsa_c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_24_5_4_SHAKE_esk_opt.vcxproj">
+      <Project>{98A17F8A-5C94-307C-9F5B-F19A2AD1B754}</Project>
+      <Name>snova_SNOVA_24_5_4_SHAKE_esk_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_24_5_4_SHAKE_opt.vcxproj">
+      <Project>{6D4860F8-0889-3632-8A5D-90DAF8E400BA}</Project>
+      <Name>snova_SNOVA_24_5_4_SHAKE_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_24_5_4_esk_opt.vcxproj">
+      <Project>{D06DA1CF-2CEF-3267-9760-752468C229F6}</Project>
+      <Name>snova_SNOVA_24_5_4_esk_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_24_5_4_opt.vcxproj">
+      <Project>{0F4C3054-EC51-3E6F-816F-8448BA4A643A}</Project>
+      <Name>snova_SNOVA_24_5_4_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_24_5_5_opt.vcxproj">
+      <Project>{EF482384-4B7C-3DC1-8C7A-AC1EA9ED4FCB}</Project>
+      <Name>snova_SNOVA_24_5_5_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_25_8_3_opt.vcxproj">
+      <Project>{2DC0CC3F-A445-3005-952E-FB7A28EF79A6}</Project>
+      <Name>snova_SNOVA_25_8_3_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_29_6_5_opt.vcxproj">
+      <Project>{E8EA6144-A1C2-3AF4-981C-A823C479EB06}</Project>
+      <Name>snova_SNOVA_29_6_5_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_37_17_2_opt.vcxproj">
+      <Project>{E00A1640-27FD-3B08-892B-398695E64753}</Project>
+      <Name>snova_SNOVA_37_17_2_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_37_8_4_opt.vcxproj">
+      <Project>{68110618-4901-31EA-BC6D-A1DBE570C1A0}</Project>
+      <Name>snova_SNOVA_37_8_4_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_49_11_3_opt.vcxproj">
+      <Project>{26D1C7D1-5547-3809-AC1F-05E5821D07AF}</Project>
+      <Name>snova_SNOVA_49_11_3_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_56_25_2_opt.vcxproj">
+      <Project>{7EECF695-CDBA-3365-B308-EB1B347C11DD}</Project>
+      <Name>snova_SNOVA_56_25_2_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\snova\snova_SNOVA_60_10_4_opt.vcxproj">
+      <Project>{201D5AFA-046C-39D4-B644-9211414829AA}</Project>
+      <Name>snova_SNOVA_60_10_4_opt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_kem.vcxproj">
+      <Project>{53879AB7-8917-3CCE-B110-2475982A4488}</Project>
+      <Name>speed_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig.vcxproj">
+      <Project>{ACF29AB1-E43A-31CF-B590-3B9A45207B42}</Project>
+      <Name>speed_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\speed_sig_stfl.vcxproj">
+      <Project>{E4E4589E-65A5-3B99-86E7-F9110549CD9A}</Project>
+      <Name>speed_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_sha2_128f_simple_clean.vcxproj">
+      <Project>{78D2C35C-099A-393E-8EED-9EDC6CF91E69}</Project>
+      <Name>sphincs_sha2_128f_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_sha2_128s_simple_clean.vcxproj">
+      <Project>{C1B1C566-FE83-3F97-B6AE-777850297198}</Project>
+      <Name>sphincs_sha2_128s_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_sha2_192f_simple_clean.vcxproj">
+      <Project>{9E781542-23EF-3CD4-A18D-040EA6B64467}</Project>
+      <Name>sphincs_sha2_192f_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_sha2_192s_simple_clean.vcxproj">
+      <Project>{2AE4A3CD-3DA7-3E80-9D95-4CCF8CF9C58C}</Project>
+      <Name>sphincs_sha2_192s_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_sha2_256f_simple_clean.vcxproj">
+      <Project>{9A3A2B81-8A5D-3E5A-81B8-D8616267B781}</Project>
+      <Name>sphincs_sha2_256f_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_sha2_256s_simple_clean.vcxproj">
+      <Project>{803FA21D-3A76-3859-B812-3BCE371628A6}</Project>
+      <Name>sphincs_sha2_256s_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_shake_128f_simple_clean.vcxproj">
+      <Project>{E4572EE5-1C9F-3166-938A-13F16425F55E}</Project>
+      <Name>sphincs_shake_128f_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_shake_128s_simple_clean.vcxproj">
+      <Project>{27C79C37-DA6A-389B-9D8E-72FB34459B96}</Project>
+      <Name>sphincs_shake_128s_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_shake_192f_simple_clean.vcxproj">
+      <Project>{97863024-C4FC-353D-8CE8-638B1450B824}</Project>
+      <Name>sphincs_shake_192f_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_shake_192s_simple_clean.vcxproj">
+      <Project>{A5AA6A90-4B02-3632-AB52-E2832C220796}</Project>
+      <Name>sphincs_shake_192s_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_shake_256f_simple_clean.vcxproj">
+      <Project>{A57FC786-23E2-34DF-90B9-60CDB1179E29}</Project>
+      <Name>sphincs_shake_256f_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\sphincs\sphincs_shake_256s_simple_clean.vcxproj">
+      <Project>{94CEB3F6-DE41-3910-B2BF-C55D539BDCA9}</Project>
+      <Name>sphincs_shake_256s_simple_clean</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem.vcxproj">
+      <Project>{568B180D-02CC-3E75-B822-A444789CD8F2}</Project>
+      <Name>test_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_kem_mem.vcxproj">
+      <Project>{87D6B1A0-22B3-326C-A912-A864DDFD3904}</Project>
+      <Name>test_kem_mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig.vcxproj">
+      <Project>{2A11F17D-F205-3985-B6E9-81B6379CB155}</Project>
+      <Name>test_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_mem.vcxproj">
+      <Project>{A92A24E4-761C-3A92-8CC2-67863E243ABD}</Project>
+      <Name>test_sig_mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\test_sig_stfl.vcxproj">
+      <Project>{D6CFAC50-27A1-31DC-B76A-C80C8C7EFE25}</Project>
+      <Name>test_sig_stfl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_III_pkc_ref.vcxproj">
+      <Project>{CB755796-1C4A-3D40-9D57-312476358350}</Project>
+      <Name>uov_ov_III_pkc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_III_pkc_skc_ref.vcxproj">
+      <Project>{1B3FC7D0-178B-3466-874F-593A971D1B54}</Project>
+      <Name>uov_ov_III_pkc_skc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_III_ref.vcxproj">
+      <Project>{4CE9BDC0-6CBB-3DAA-B9A7-82B5E6E49767}</Project>
+      <Name>uov_ov_III_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_Ip_pkc_ref.vcxproj">
+      <Project>{A43B9125-646B-3E42-A4B1-F0077A046B1A}</Project>
+      <Name>uov_ov_Ip_pkc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_Ip_pkc_skc_ref.vcxproj">
+      <Project>{0A925ACE-4073-31A4-9985-E4046C82D7CB}</Project>
+      <Name>uov_ov_Ip_pkc_skc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_Ip_ref.vcxproj">
+      <Project>{EA4C5049-6028-3169-AD53-D9C2572FBA7C}</Project>
+      <Name>uov_ov_Ip_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_Is_pkc_ref.vcxproj">
+      <Project>{4D0E10F8-8CB6-30DC-A2CF-BA6264D0CAC2}</Project>
+      <Name>uov_ov_Is_pkc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_Is_pkc_skc_ref.vcxproj">
+      <Project>{1394197E-D641-3881-9615-5890B516D071}</Project>
+      <Name>uov_ov_Is_pkc_skc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_Is_ref.vcxproj">
+      <Project>{6E826D71-0FE3-3229-B756-9F2A2CD0FC75}</Project>
+      <Name>uov_ov_Is_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_V_pkc_ref.vcxproj">
+      <Project>{7B351C01-37DF-3802-A431-72E97E611D54}</Project>
+      <Name>uov_ov_V_pkc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_V_pkc_skc_ref.vcxproj">
+      <Project>{4DF1DB11-E9F6-3461-8380-D3C4BFFFED7B}</Project>
+      <Name>uov_ov_V_pkc_skc_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\sig\uov\uov_ov_V_ref.vcxproj">
+      <Project>{24A04800-C27B-37A1-AFD7-0A3F1C2954F7}</Project>
+      <Name>uov_ov_V_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_kem.vcxproj">
+      <Project>{47E3E879-AEFF-37FA-9FC6-26FCE79CEE59}</Project>
+      <Name>vectors_kem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\tests\vectors_sig.vcxproj">
+      <Project>{9F72B577-5A76-3D77-B6AA-54A95540B6FE}</Project>
+      <Name>vectors_sig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\common\sha3\xkcp_low\xkcp_low_keccakp_1600_plain64.vcxproj">
+      <Project>{35DDF5AB-23BC-357F-8144-CF9C133FA780}</Project>
+      <Name>xkcp_low_keccakp_1600_plain64</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vboxuser\Desktop\Ransomware\build\src\common\sha3\xkcp_low\xkcp_low_keccakp_1600times4_serial.vcxproj">
+      <Project>{60B25B4F-407D-3AF8-8AEE-67743F3A3B9E}</Project>
+      <Name>xkcp_low_keccakp_1600times4_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

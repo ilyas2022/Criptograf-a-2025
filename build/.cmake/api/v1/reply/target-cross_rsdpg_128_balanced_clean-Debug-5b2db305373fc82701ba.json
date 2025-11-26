@@ -1,0 +1,232 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/sig_cross_rsdpg_128_balanced.obj"
+		},
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/CROSS.obj"
+		},
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/csprng_hash.obj"
+		},
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/merkle.obj"
+		},
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/pack_unpack.obj"
+		},
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/seedtree.obj"
+		},
+		{
+			"path" : "src/sig/cross/cross_rsdpg_128_balanced_clean.dir/Debug/sign.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/sig/cross/CMakeLists.txt",
+			".CMake/compiler_opts.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 299,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4146"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/MT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/build/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/sig/cross/upcross_cross-rsdpg-128-balanced_clean"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/common/pqclean_shims"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "cross_rsdpg_128_balanced_clean::@c118a0251416d742c6d7",
+	"name" : "cross_rsdpg_128_balanced_clean",
+	"paths" : 
+	{
+		"build" : "src/sig/cross",
+		"source" : "src/sig/cross"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/sig_cross_rsdpg_128_balanced.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/upcross_cross-rsdpg-128-balanced_clean/CROSS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/upcross_cross-rsdpg-128-balanced_clean/csprng_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/upcross_cross-rsdpg-128-balanced_clean/merkle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/upcross_cross-rsdpg-128-balanced_clean/pack_unpack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/upcross_cross-rsdpg-128-balanced_clean/seedtree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/cross/upcross_cross-rsdpg-128-balanced_clean/sign.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,256 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt.dir/Release/sig_snova_SNOVA_60_10_4.obj"
+		},
+		{
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt.dir/Release/oqs_snova.obj"
+		},
+		{
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt.dir/Release/snova.obj"
+		},
+		{
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt.dir/Release/snova_aes.obj"
+		},
+		{
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt.dir/Release/snova_common.obj"
+		},
+		{
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt.dir/Release/snova_shake.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/sig/snova/CMakeLists.txt",
+			".CMake/compiler_opts.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 299,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -std:c11 -MD"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4146"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/MT"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DOPTIMISATION=1"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Dv_SNOVA=60"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Do_SNOVA=10"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Dl_SNOVA=4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Dsk_is_seed=1"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DPK_EXPAND_SHAKE=0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DSNOVA_LIBOQS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/build/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/sig/snova/snova_SNOVA_60_10_4_opt"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs/src/common/pqclean_shims"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "snova_SNOVA_60_10_4_opt::@c6aa95f14ef77fa1177d",
+	"name" : "snova_SNOVA_60_10_4_opt",
+	"paths" : 
+	{
+		"build" : "src/sig/snova",
+		"source" : "src/sig/snova"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/snova/sig_snova_SNOVA_60_10_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt/oqs_snova.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt/snova.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt/snova_aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt/snova_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sig/snova/snova_SNOVA_60_10_4_opt/snova_shake.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\kem_ntru_hps4096821.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\cmov.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\crypto_sort_int32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\kem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\owcpa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\pack3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\packq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\poly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\poly_lift.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\poly_mod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\poly_r2_inv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\poly_rq_mul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\poly_s3_inv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\sample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\pqclean_ntruhps4096821_clean\sample_iid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\kem\ntru\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C91C7BD-84F1-3384-AC4F-77139785C2CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

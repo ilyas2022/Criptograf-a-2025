@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\fpr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\keygen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\pqclean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\rng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\pqclean_falcon-1024_avx2\vrfy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vboxuser\Desktop\Ransomware\liboqs\src\sig\falcon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C91C7BD-84F1-3384-AC4F-77139785C2CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

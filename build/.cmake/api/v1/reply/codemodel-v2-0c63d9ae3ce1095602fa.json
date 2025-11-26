@@ -1,0 +1,6396 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						123
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-dd0d689964a3a233a923.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						87,
+						88
+					]
+				},
+				{
+					"build" : "src/common",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.common-Debug-31b099629783a692f917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						12,
+						63
+					]
+				},
+				{
+					"build" : "src/common/sha3/xkcp_low",
+					"jsonFile" : "directory-src.common.sha3.xkcp_low-Debug-28bd695c688620c969ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/common/sha3/xkcp_low",
+					"targetIndexes" : 
+					[
+						138,
+						139
+					]
+				},
+				{
+					"build" : "src/kem/frodokem",
+					"jsonFile" : "directory-src.kem.frodokem-Debug-7482f758b269f0464034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/frodokem",
+					"targetIndexes" : 
+					[
+						61,
+						62
+					]
+				},
+				{
+					"build" : "src/kem/ntruprime",
+					"jsonFile" : "directory-src.kem.ntruprime-Debug-e68d7c003c1dab8cc232.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntruprime",
+					"targetIndexes" : 
+					[
+						86
+					]
+				},
+				{
+					"build" : "src/kem/ntru",
+					"jsonFile" : "directory-src.kem.ntru-Debug-5a92d0b560f1e022de27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntru",
+					"targetIndexes" : 
+					[
+						80,
+						81,
+						82,
+						83,
+						84,
+						85
+					]
+				},
+				{
+					"build" : "src/kem/classic_mceliece",
+					"jsonFile" : "directory-src.kem.classic_mceliece-Debug-49606f72d619af674abe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/classic_mceliece",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/kem/kyber",
+					"jsonFile" : "directory-src.kem.kyber-Debug-991dfb3c1c7021b7907c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/kyber",
+					"targetIndexes" : 
+					[
+						67,
+						68,
+						69
+					]
+				},
+				{
+					"build" : "src/kem/ml_kem",
+					"jsonFile" : "directory-src.kem.ml_kem-Debug-78863c5d6b9e3394a3d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ml_kem",
+					"targetIndexes" : 
+					[
+						77,
+						78,
+						79
+					]
+				},
+				{
+					"build" : "src/sig/ml_dsa",
+					"jsonFile" : "directory-src.sig.ml_dsa-Debug-64a46dd5b6f31e087d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/ml_dsa",
+					"targetIndexes" : 
+					[
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"build" : "src/sig/falcon",
+					"jsonFile" : "directory-src.sig.falcon-Debug-efb78a5494ba24e4ea15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/falcon",
+					"targetIndexes" : 
+					[
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
+					]
+				},
+				{
+					"build" : "src/sig/sphincs",
+					"jsonFile" : "directory-src.sig.sphincs-Debug-ee132ce169d3514c6b65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/sphincs",
+					"targetIndexes" : 
+					[
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117
+					]
+				},
+				{
+					"build" : "src/sig/mayo",
+					"jsonFile" : "directory-src.sig.mayo-Debug-1ed65685ecb0ec678c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/mayo",
+					"targetIndexes" : 
+					[
+						70,
+						71,
+						72,
+						73
+					]
+				},
+				{
+					"build" : "src/sig/cross",
+					"jsonFile" : "directory-src.sig.cross-Debug-b20f11f6d40c2c251221.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/cross",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"build" : "src/sig/uov",
+					"jsonFile" : "directory-src.sig.uov-Debug-46101a8050a4f82a6755.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/uov",
+					"targetIndexes" : 
+					[
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135
+					]
+				},
+				{
+					"build" : "src/sig/snova",
+					"jsonFile" : "directory-src.sig.snova-Debug-8923f3b6e60dcfab5bd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/snova",
+					"targetIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102
+					]
+				},
+				{
+					"build" : "src/sig/slh_dsa",
+					"jsonFile" : "directory-src.sig.slh_dsa-Debug-caa91f3a1958fac39610.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/slh_dsa",
+					"targetIndexes" : 
+					[
+						90
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-74d1b11f0521a8d27dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						49,
+						50,
+						51,
+						52,
+						64,
+						65,
+						66,
+						89,
+						103,
+						104,
+						105,
+						118,
+						119,
+						120,
+						121,
+						122,
+						136,
+						137
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "liboqs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-538f9cd66cf4e64ef551.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-f0afc0caf606e1a77271.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864_clean-Debug-2c1ceed9dfb52b779493.json",
+					"name" : "classic_mceliece_348864_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864f_clean-Debug-02404b4ab274d5e35f1d.json",
+					"name" : "classic_mceliece_348864f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896_clean-Debug-9ddeb881449c7fea473f.json",
+					"name" : "classic_mceliece_460896_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896f_clean-Debug-4f545e78c9af748b33e0.json",
+					"name" : "classic_mceliece_460896f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128_clean-Debug-2f74ed92497b119e2f6f.json",
+					"name" : "classic_mceliece_6688128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128f_clean-Debug-467274d5c7e7902cc336.json",
+					"name" : "classic_mceliece_6688128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119_clean-Debug-1e06dde5fd5f7358ae37.json",
+					"name" : "classic_mceliece_6960119_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119f_clean-Debug-adeda36d5ee1b0157699.json",
+					"name" : "classic_mceliece_6960119f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128_clean-Debug-40e1d65ca498e0a8b0f7.json",
+					"name" : "classic_mceliece_8192128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128f_clean-Debug-b403cdf56f5c1e67fdee.json",
+					"name" : "classic_mceliece_8192128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Debug-a6dd37a824f3f6e57896.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_avx2-Debug-d5a4ffb9e1051808e91f.json",
+					"name" : "cross_rsdp_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_clean-Debug-d0c36fde20e0a9873670.json",
+					"name" : "cross_rsdp_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_avx2-Debug-b6cb9963cb59df187783.json",
+					"name" : "cross_rsdp_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_clean-Debug-40ae899f6f5fab00fcc0.json",
+					"name" : "cross_rsdp_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_avx2-Debug-65b5d3cef1bc9bc30938.json",
+					"name" : "cross_rsdp_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_clean-Debug-5ce90984a80305b461b0.json",
+					"name" : "cross_rsdp_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_avx2-Debug-77b25d1927e93290cdad.json",
+					"name" : "cross_rsdp_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_clean-Debug-463b6499798a7cd9744f.json",
+					"name" : "cross_rsdp_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_avx2-Debug-3e0dc82380311cf7f3e6.json",
+					"name" : "cross_rsdp_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_clean-Debug-e014932c08fb5670d501.json",
+					"name" : "cross_rsdp_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_avx2-Debug-fe6e0a4669ff522816a4.json",
+					"name" : "cross_rsdp_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_clean-Debug-e8a5eed648f3621e647b.json",
+					"name" : "cross_rsdp_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_avx2-Debug-b2c424103414412ffd4f.json",
+					"name" : "cross_rsdp_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_clean-Debug-8895f913309b9eaa4a7f.json",
+					"name" : "cross_rsdp_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_avx2-Debug-29ab54062e67085e71a9.json",
+					"name" : "cross_rsdp_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_clean-Debug-dd2fa14484ff85c8ccb5.json",
+					"name" : "cross_rsdp_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_avx2-Debug-b865747a6450ac2e0624.json",
+					"name" : "cross_rsdp_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_clean-Debug-2eb49f5bc7c26792f7dc.json",
+					"name" : "cross_rsdp_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_avx2-Debug-272e0ef8d1d61c93c20e.json",
+					"name" : "cross_rsdpg_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_clean-Debug-5b2db305373fc82701ba.json",
+					"name" : "cross_rsdpg_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_avx2-Debug-9a64cfc2ca90120bcbde.json",
+					"name" : "cross_rsdpg_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_clean-Debug-7c6b21e65c52bdd5252b.json",
+					"name" : "cross_rsdpg_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_avx2-Debug-ea57544b762108f8983e.json",
+					"name" : "cross_rsdpg_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_clean-Debug-3af038d77b849f167ba9.json",
+					"name" : "cross_rsdpg_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_avx2-Debug-8a72ae39a53c93e958e7.json",
+					"name" : "cross_rsdpg_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_clean-Debug-ced5cdf58767b678bd2f.json",
+					"name" : "cross_rsdpg_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_avx2-Debug-cb2c8877c65323e6849a.json",
+					"name" : "cross_rsdpg_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_clean-Debug-243c13f401d159d4ed81.json",
+					"name" : "cross_rsdpg_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_avx2-Debug-02aec19062bcf3b511ab.json",
+					"name" : "cross_rsdpg_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_clean-Debug-ba4bb08e36721dd13efe.json",
+					"name" : "cross_rsdpg_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_avx2-Debug-af1c2c0ebc8295e0f0d7.json",
+					"name" : "cross_rsdpg_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_clean-Debug-2d0a84f193df4969bcc5.json",
+					"name" : "cross_rsdpg_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_avx2-Debug-f7626131ae9e13c2f1c4.json",
+					"name" : "cross_rsdpg_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_clean-Debug-d33a1491899243743707.json",
+					"name" : "cross_rsdpg_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_avx2-Debug-87226aa79ba528b3cae2.json",
+					"name" : "cross_rsdpg_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_clean-Debug-a43111b8c50bc7ba2571.json",
+					"name" : "cross_rsdpg_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "dump_alg_info::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-dump_alg_info-Debug-35a2fea3a0dbc7a18572.json",
+					"name" : "dump_alg_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_kem-Debug-75b02e88e90d943eb845.json",
+					"name" : "example_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig-Debug-b35e060c351cd10bacf9.json",
+					"name" : "example_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig_stfl-Debug-d903947ddba6a0de28d7.json",
+					"name" : "example_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_avx2-Debug-441b302ed790b00d3a23.json",
+					"name" : "falcon_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_clean-Debug-383773c1d9e8a193eb3e.json",
+					"name" : "falcon_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_avx2-Debug-b1c5b6ac0d3810da24bc.json",
+					"name" : "falcon_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_clean-Debug-808d6366005e0321b438.json",
+					"name" : "falcon_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_avx2-Debug-bac68c42d5c327ea3eda.json",
+					"name" : "falcon_padded_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_clean-Debug-c623b783bdbd63f0b22b.json",
+					"name" : "falcon_padded_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_avx2-Debug-639431bf1c0144c7d846.json",
+					"name" : "falcon_padded_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_clean-Debug-a68b5be455dc00a54701.json",
+					"name" : "falcon_padded_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem-Debug-8a9d6edf70367fad918e.json",
+					"name" : "frodokem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem_avx2::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem_avx2-Debug-3ed6bafd13981510b147.json",
+					"name" : "frodokem_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "internal::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-internal-Debug-081da4da57c8fb73919d.json",
+					"name" : "internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_kem-Debug-8e7938043f522c3d3796.json",
+					"name" : "kat_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig-Debug-6a5d91fb186cfa570e9b.json",
+					"name" : "kat_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig_stfl-Debug-4ba673cbeb6a2257330c.json",
+					"name" : "kat_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_1024_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_1024_ref-Debug-8de00b344e6db7474e31.json",
+					"name" : "kyber_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_512_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_512_ref-Debug-c493a77b7d6a8f3e468d.json",
+					"name" : "kyber_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_768_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_768_ref-Debug-b582c9e191a3d673ebda.json",
+					"name" : "kyber_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_1_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_1_opt-Debug-466619a135e35681cd76.json",
+					"name" : "mayo_1_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_2_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_2_opt-Debug-645875a308b77b1b3206.json",
+					"name" : "mayo_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_3_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_3_opt-Debug-4302b9035c55c955a4ea.json",
+					"name" : "mayo_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_5_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_5_opt-Debug-7657be18906967fc5207.json",
+					"name" : "mayo_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_44_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_44_ref-Debug-84f46e4802413ad5dfbf.json",
+					"name" : "ml_dsa_44_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_65_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_65_ref-Debug-3da8bea924f1ae469278.json",
+					"name" : "ml_dsa_65_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_87_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_87_ref-Debug-30e1bd48581b8bbf3be5.json",
+					"name" : "ml_dsa_87_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_1024_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_1024_ref-Debug-e804fc9b1ec64a1e41db.json",
+					"name" : "ml_kem_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_512_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_512_ref-Debug-dfb394b93c7203e816b6.json",
+					"name" : "ml_kem_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_768_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_768_ref-Debug-40e9d5c487169f7262ae.json",
+					"name" : "ml_kem_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048509_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048509_clean-Debug-773a6addbe4cafe823ff.json",
+					"name" : "ntru_hps2048509_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048677_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048677_clean-Debug-4d11c887bf6c941392e5.json",
+					"name" : "ntru_hps2048677_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps40961229_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps40961229_clean-Debug-cdee6503edb749a9b211.json",
+					"name" : "ntru_hps40961229_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps4096821_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps4096821_clean-Debug-ca61003d983c9c441b0b.json",
+					"name" : "ntru_hps4096821_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss1373_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss1373_clean-Debug-f37c1635e37ac01b52bc.json",
+					"name" : "ntru_hrss1373_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss701_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss701_clean-Debug-df67cef31fdd3b26b78e.json",
+					"name" : "ntru_hrss701_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ntruprime_sntrup761_clean::@dc9f56a0c80b55c3676d",
+					"jsonFile" : "target-ntruprime_sntrup761_clean-Debug-33e788fc83649e88557a.json",
+					"name" : "ntruprime_sntrup761_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-Debug-41ec2cc490b2607c4d5a.json",
+					"name" : "oqs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs-internal::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-internal-Debug-67049a90a311741f6181.json",
+					"name" : "oqs-internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "run_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-run_tests-Debug-8fab70de02f2e0415bf6.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "slh_dsa_c::@d4d5e2426e0a993f67d7",
+					"jsonFile" : "target-slh_dsa_c-Debug-466fc3318bf1e949ca53.json",
+					"name" : "slh_dsa_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_esk_opt-Debug-574de985328d9226c406.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_opt-Debug-4436ba24dbd77da4b1c6.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_esk_opt-Debug-2a2f995200d01ed659d2.json",
+					"name" : "snova_SNOVA_24_5_4_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_opt-Debug-7e32f58c5cdc3f1172b8.json",
+					"name" : "snova_SNOVA_24_5_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_5_opt-Debug-745eebdcd1fdd15cfac5.json",
+					"name" : "snova_SNOVA_24_5_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_25_8_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_25_8_3_opt-Debug-dc5131327e6343684108.json",
+					"name" : "snova_SNOVA_25_8_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_29_6_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_29_6_5_opt-Debug-45161c9cbf35c3e74b5a.json",
+					"name" : "snova_SNOVA_29_6_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_17_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_17_2_opt-Debug-9a7d643d93341ce2688e.json",
+					"name" : "snova_SNOVA_37_17_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_8_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_8_4_opt-Debug-58d0b51f14a225c51ce2.json",
+					"name" : "snova_SNOVA_37_8_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_49_11_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_49_11_3_opt-Debug-112acb93377729f24564.json",
+					"name" : "snova_SNOVA_49_11_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_56_25_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_56_25_2_opt-Debug-1c5da53ce37e54d3d4be.json",
+					"name" : "snova_SNOVA_56_25_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_60_10_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_60_10_4_opt-Debug-4409685e510162590459.json",
+					"name" : "snova_SNOVA_60_10_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_kem-Debug-53b8155d187b522d651b.json",
+					"name" : "speed_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig-Debug-5a56df12feae88b2c02d.json",
+					"name" : "speed_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig_stfl-Debug-548de6198d3f73a18965.json",
+					"name" : "speed_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128f_simple_clean-Debug-52b8a249be49cbe40edf.json",
+					"name" : "sphincs_sha2_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128s_simple_clean-Debug-de3c435043d97940cbee.json",
+					"name" : "sphincs_sha2_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192f_simple_clean-Debug-889426510f9049b41dfc.json",
+					"name" : "sphincs_sha2_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192s_simple_clean-Debug-10d3374dd529c64f2d35.json",
+					"name" : "sphincs_sha2_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256f_simple_clean-Debug-77dbb05c7db47bb4f3cc.json",
+					"name" : "sphincs_sha2_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256s_simple_clean-Debug-5a73c1db6b0c25fd5e08.json",
+					"name" : "sphincs_sha2_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128f_simple_clean-Debug-a79d22a14d18811cb519.json",
+					"name" : "sphincs_shake_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128s_simple_clean-Debug-55768bb089ae6d56e18d.json",
+					"name" : "sphincs_shake_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192f_simple_clean-Debug-a456be094572ff381ce8.json",
+					"name" : "sphincs_shake_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192s_simple_clean-Debug-1968a581adbcc7fa80df.json",
+					"name" : "sphincs_shake_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256f_simple_clean-Debug-8bab75866e97778fc303.json",
+					"name" : "sphincs_shake_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256s_simple_clean-Debug-7c5b769cc46b9196d6e2.json",
+					"name" : "sphincs_shake_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem-Debug-dae6602b35868b80edd3.json",
+					"name" : "test_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem_mem-Debug-2741069f95d322cd75ca.json",
+					"name" : "test_kem_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig-Debug-4e2b89ec3b44f445146a.json",
+					"name" : "test_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_mem-Debug-c28981b3481b94da94fa.json",
+					"name" : "test_sig_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_stfl-Debug-73e27facaba443a0ef1b.json",
+					"name" : "test_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-9abb48468423c265e5a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_ref-Debug-de9b5e1e9b7b6c517161.json",
+					"name" : "uov_ov_III_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_skc_ref-Debug-2f5b0747e95e9ac8987f.json",
+					"name" : "uov_ov_III_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_ref-Debug-b8e989b31ef54f96960a.json",
+					"name" : "uov_ov_III_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_ref-Debug-e149edb69f76d49f992b.json",
+					"name" : "uov_ov_Ip_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_skc_ref-Debug-f1abec78e9946893e580.json",
+					"name" : "uov_ov_Ip_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_ref-Debug-19b9801610c1c16ef7c7.json",
+					"name" : "uov_ov_Ip_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_ref-Debug-3f6c8d6fc9e23d846fac.json",
+					"name" : "uov_ov_Is_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_skc_ref-Debug-70bde977c67e56e6af3d.json",
+					"name" : "uov_ov_Is_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_ref-Debug-bfe6131810d9a661dc99.json",
+					"name" : "uov_ov_Is_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_ref-Debug-c94ba5a9c9f73535a697.json",
+					"name" : "uov_ov_V_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_skc_ref-Debug-2cfce52396fa08ebbd4e.json",
+					"name" : "uov_ov_V_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_ref-Debug-815be46fb8e508b0f44f.json",
+					"name" : "uov_ov_V_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_kem-Debug-c026043a8e1b96cf026d.json",
+					"name" : "vectors_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_sig-Debug-4af84f1c8913c00a51d9.json",
+					"name" : "vectors_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600_plain64::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600_plain64-Debug-6770b7ded3a84153a0ba.json",
+					"name" : "xkcp_low_keccakp_1600_plain64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600times4_serial::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600times4_serial-Debug-9287f4ab68c739003a81.json",
+					"name" : "xkcp_low_keccakp_1600times4_serial",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						123
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-4e32b509c62bfc12a8b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						87,
+						88
+					]
+				},
+				{
+					"build" : "src/common",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.common-Release-31b099629783a692f917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						12,
+						63
+					]
+				},
+				{
+					"build" : "src/common/sha3/xkcp_low",
+					"jsonFile" : "directory-src.common.sha3.xkcp_low-Release-28bd695c688620c969ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/common/sha3/xkcp_low",
+					"targetIndexes" : 
+					[
+						138,
+						139
+					]
+				},
+				{
+					"build" : "src/kem/frodokem",
+					"jsonFile" : "directory-src.kem.frodokem-Release-7482f758b269f0464034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/frodokem",
+					"targetIndexes" : 
+					[
+						61,
+						62
+					]
+				},
+				{
+					"build" : "src/kem/ntruprime",
+					"jsonFile" : "directory-src.kem.ntruprime-Release-e68d7c003c1dab8cc232.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntruprime",
+					"targetIndexes" : 
+					[
+						86
+					]
+				},
+				{
+					"build" : "src/kem/ntru",
+					"jsonFile" : "directory-src.kem.ntru-Release-5a92d0b560f1e022de27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntru",
+					"targetIndexes" : 
+					[
+						80,
+						81,
+						82,
+						83,
+						84,
+						85
+					]
+				},
+				{
+					"build" : "src/kem/classic_mceliece",
+					"jsonFile" : "directory-src.kem.classic_mceliece-Release-49606f72d619af674abe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/classic_mceliece",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/kem/kyber",
+					"jsonFile" : "directory-src.kem.kyber-Release-991dfb3c1c7021b7907c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/kyber",
+					"targetIndexes" : 
+					[
+						67,
+						68,
+						69
+					]
+				},
+				{
+					"build" : "src/kem/ml_kem",
+					"jsonFile" : "directory-src.kem.ml_kem-Release-78863c5d6b9e3394a3d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ml_kem",
+					"targetIndexes" : 
+					[
+						77,
+						78,
+						79
+					]
+				},
+				{
+					"build" : "src/sig/ml_dsa",
+					"jsonFile" : "directory-src.sig.ml_dsa-Release-64a46dd5b6f31e087d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/ml_dsa",
+					"targetIndexes" : 
+					[
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"build" : "src/sig/falcon",
+					"jsonFile" : "directory-src.sig.falcon-Release-efb78a5494ba24e4ea15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/falcon",
+					"targetIndexes" : 
+					[
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
+					]
+				},
+				{
+					"build" : "src/sig/sphincs",
+					"jsonFile" : "directory-src.sig.sphincs-Release-ee132ce169d3514c6b65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/sphincs",
+					"targetIndexes" : 
+					[
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117
+					]
+				},
+				{
+					"build" : "src/sig/mayo",
+					"jsonFile" : "directory-src.sig.mayo-Release-1ed65685ecb0ec678c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/mayo",
+					"targetIndexes" : 
+					[
+						70,
+						71,
+						72,
+						73
+					]
+				},
+				{
+					"build" : "src/sig/cross",
+					"jsonFile" : "directory-src.sig.cross-Release-b20f11f6d40c2c251221.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/cross",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"build" : "src/sig/uov",
+					"jsonFile" : "directory-src.sig.uov-Release-46101a8050a4f82a6755.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/uov",
+					"targetIndexes" : 
+					[
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135
+					]
+				},
+				{
+					"build" : "src/sig/snova",
+					"jsonFile" : "directory-src.sig.snova-Release-8923f3b6e60dcfab5bd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/snova",
+					"targetIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102
+					]
+				},
+				{
+					"build" : "src/sig/slh_dsa",
+					"jsonFile" : "directory-src.sig.slh_dsa-Release-caa91f3a1958fac39610.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/slh_dsa",
+					"targetIndexes" : 
+					[
+						90
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Release-74d1b11f0521a8d27dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						49,
+						50,
+						51,
+						52,
+						64,
+						65,
+						66,
+						89,
+						103,
+						104,
+						105,
+						118,
+						119,
+						120,
+						121,
+						122,
+						136,
+						137
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "liboqs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-538f9cd66cf4e64ef551.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-f0afc0caf606e1a77271.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864_clean-Release-02d8226d6934d8de003d.json",
+					"name" : "classic_mceliece_348864_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864f_clean-Release-2e69a93f2001c618d3dc.json",
+					"name" : "classic_mceliece_348864f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896_clean-Release-69de952c1fbae4acc7e1.json",
+					"name" : "classic_mceliece_460896_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896f_clean-Release-3a824127fdfde08bedf2.json",
+					"name" : "classic_mceliece_460896f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128_clean-Release-69087979bf4d19c17b2c.json",
+					"name" : "classic_mceliece_6688128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128f_clean-Release-7114b5372759321bc216.json",
+					"name" : "classic_mceliece_6688128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119_clean-Release-e7a3bc877e6253c66b22.json",
+					"name" : "classic_mceliece_6960119_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119f_clean-Release-ccb934e62ebb62b5c74c.json",
+					"name" : "classic_mceliece_6960119f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128_clean-Release-cf64a945d0f7955d35b5.json",
+					"name" : "classic_mceliece_8192128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128f_clean-Release-8a905e017e1f99b6e030.json",
+					"name" : "classic_mceliece_8192128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Release-a99a977eec82c35b5a6a.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_avx2-Release-130b6036e0219f73fc93.json",
+					"name" : "cross_rsdp_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_clean-Release-a196e6c8ee14937d8199.json",
+					"name" : "cross_rsdp_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_avx2-Release-5b6a2938d7ae6682e375.json",
+					"name" : "cross_rsdp_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_clean-Release-47088f99da6c7a663ee5.json",
+					"name" : "cross_rsdp_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_avx2-Release-332e276f5143914751c2.json",
+					"name" : "cross_rsdp_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_clean-Release-5ba62e1cdcee16b871c9.json",
+					"name" : "cross_rsdp_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_avx2-Release-a0eb0e848c6f8244aa54.json",
+					"name" : "cross_rsdp_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_clean-Release-ef10ab6da70e6f262541.json",
+					"name" : "cross_rsdp_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_avx2-Release-c90204fd1f43eadb0ab9.json",
+					"name" : "cross_rsdp_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_clean-Release-dbdd2f765b1187140482.json",
+					"name" : "cross_rsdp_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_avx2-Release-d14a02e250bdc862875f.json",
+					"name" : "cross_rsdp_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_clean-Release-ffeab9f50283073d608d.json",
+					"name" : "cross_rsdp_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_avx2-Release-acecb8b1cf91e0482e86.json",
+					"name" : "cross_rsdp_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_clean-Release-4268a38a31087b8c098b.json",
+					"name" : "cross_rsdp_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_avx2-Release-0bba1314bcb76a9a7588.json",
+					"name" : "cross_rsdp_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_clean-Release-635331fb7c420b64a1ee.json",
+					"name" : "cross_rsdp_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_avx2-Release-951499370c0f43169eca.json",
+					"name" : "cross_rsdp_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_clean-Release-fb266eac1ecc6b82d343.json",
+					"name" : "cross_rsdp_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_avx2-Release-c8f36a397541c4c8fa38.json",
+					"name" : "cross_rsdpg_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_clean-Release-2bec85a9fe9224ae36cd.json",
+					"name" : "cross_rsdpg_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_avx2-Release-ecdf3d76462151ab6e45.json",
+					"name" : "cross_rsdpg_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_clean-Release-d3cda9c9d576edab69fc.json",
+					"name" : "cross_rsdpg_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_avx2-Release-056ff7407274cafb5c53.json",
+					"name" : "cross_rsdpg_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_clean-Release-7392cd262fd5b28dc642.json",
+					"name" : "cross_rsdpg_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_avx2-Release-200f5d131e902542674d.json",
+					"name" : "cross_rsdpg_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_clean-Release-6bc798283e345d14f34d.json",
+					"name" : "cross_rsdpg_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_avx2-Release-bcd8d59e36c5ee511926.json",
+					"name" : "cross_rsdpg_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_clean-Release-43647bb5239f6c2d3752.json",
+					"name" : "cross_rsdpg_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_avx2-Release-8a64ddaf00216b5f8680.json",
+					"name" : "cross_rsdpg_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_clean-Release-7d47ea4d647831813346.json",
+					"name" : "cross_rsdpg_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_avx2-Release-a293e325a7b3d1256dd6.json",
+					"name" : "cross_rsdpg_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_clean-Release-ef80c62330d03e2ae086.json",
+					"name" : "cross_rsdpg_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_avx2-Release-e11cd28d5afd4be56c12.json",
+					"name" : "cross_rsdpg_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_clean-Release-1d460ad7aec522fa538c.json",
+					"name" : "cross_rsdpg_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_avx2-Release-f0c5a9a38d96f7ec8063.json",
+					"name" : "cross_rsdpg_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_clean-Release-bd36237a82e63ccec953.json",
+					"name" : "cross_rsdpg_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "dump_alg_info::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-dump_alg_info-Release-56d3efeda3e8a61f02d5.json",
+					"name" : "dump_alg_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_kem-Release-0944c7cbd4654af77961.json",
+					"name" : "example_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig-Release-aeeb98710d94e0076735.json",
+					"name" : "example_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig_stfl-Release-f9ce6c2529dbd9f8fd5a.json",
+					"name" : "example_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_avx2-Release-c3a7ff9a68afbd1334c4.json",
+					"name" : "falcon_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_clean-Release-985fdcd61d046bdbaf56.json",
+					"name" : "falcon_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_avx2-Release-e8bca20317652ece2c58.json",
+					"name" : "falcon_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_clean-Release-f2ef7307911204899e31.json",
+					"name" : "falcon_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_avx2-Release-331a017c6aeed9a79aa4.json",
+					"name" : "falcon_padded_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_clean-Release-52ff0c92aeeaa8b66498.json",
+					"name" : "falcon_padded_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_avx2-Release-aba49c0f3dc2d8442045.json",
+					"name" : "falcon_padded_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_clean-Release-9789a721a1b042b01fd4.json",
+					"name" : "falcon_padded_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem-Release-369dcba5bea3e385c552.json",
+					"name" : "frodokem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem_avx2::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem_avx2-Release-47fa8935607773e0cd0c.json",
+					"name" : "frodokem_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "internal::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-internal-Release-379b9876c0a78c9968a8.json",
+					"name" : "internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_kem-Release-832fb87bfe43992a48a6.json",
+					"name" : "kat_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig-Release-7aa424b1835f1d30c050.json",
+					"name" : "kat_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig_stfl-Release-f925bd44280b8161570d.json",
+					"name" : "kat_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_1024_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_1024_ref-Release-bf6b204f5f07622ae9c7.json",
+					"name" : "kyber_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_512_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_512_ref-Release-3411a2a19575ab0574c9.json",
+					"name" : "kyber_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_768_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_768_ref-Release-227b71ce2acd32efe054.json",
+					"name" : "kyber_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_1_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_1_opt-Release-7f55e406ad46fc015fe1.json",
+					"name" : "mayo_1_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_2_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_2_opt-Release-6082774232595f472f0c.json",
+					"name" : "mayo_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_3_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_3_opt-Release-3381d527c588ee548544.json",
+					"name" : "mayo_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_5_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_5_opt-Release-cba3b6adefda72673c9f.json",
+					"name" : "mayo_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_44_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_44_ref-Release-6cb3b7cb924d74ed5242.json",
+					"name" : "ml_dsa_44_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_65_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_65_ref-Release-95031f81aa68fcbe3e11.json",
+					"name" : "ml_dsa_65_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_87_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_87_ref-Release-a1afb21582e58075cc2d.json",
+					"name" : "ml_dsa_87_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_1024_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_1024_ref-Release-aa7f09a0eab1a3252871.json",
+					"name" : "ml_kem_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_512_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_512_ref-Release-f5363ffa4446ed111361.json",
+					"name" : "ml_kem_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_768_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_768_ref-Release-bfd353ba186de04c7c93.json",
+					"name" : "ml_kem_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048509_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048509_clean-Release-664ed51a08b0b4f76dbb.json",
+					"name" : "ntru_hps2048509_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048677_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048677_clean-Release-4edf2d119a05194f723c.json",
+					"name" : "ntru_hps2048677_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps40961229_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps40961229_clean-Release-b63c1c2a2a6a79e484e8.json",
+					"name" : "ntru_hps40961229_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps4096821_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps4096821_clean-Release-efa3868029a447094a99.json",
+					"name" : "ntru_hps4096821_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss1373_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss1373_clean-Release-4cb6a17ad73f3883ed1b.json",
+					"name" : "ntru_hrss1373_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss701_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss701_clean-Release-829d12f7906522cf50bc.json",
+					"name" : "ntru_hrss701_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ntruprime_sntrup761_clean::@dc9f56a0c80b55c3676d",
+					"jsonFile" : "target-ntruprime_sntrup761_clean-Release-7148ede662189eb0f407.json",
+					"name" : "ntruprime_sntrup761_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-Release-bc34bdd15e108cb55609.json",
+					"name" : "oqs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs-internal::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-internal-Release-b8574dee702a8a56ec97.json",
+					"name" : "oqs-internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "run_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-run_tests-Release-8fab70de02f2e0415bf6.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "slh_dsa_c::@d4d5e2426e0a993f67d7",
+					"jsonFile" : "target-slh_dsa_c-Release-c6aafae2c3c2e8d33457.json",
+					"name" : "slh_dsa_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_esk_opt-Release-befe20b11d24f0f49a51.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_opt-Release-f5420f5f3effa3dca640.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_esk_opt-Release-889024941581220963bc.json",
+					"name" : "snova_SNOVA_24_5_4_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_opt-Release-0e7b5efa417e97b0acf3.json",
+					"name" : "snova_SNOVA_24_5_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_5_opt-Release-1cbd0660d6370353fc29.json",
+					"name" : "snova_SNOVA_24_5_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_25_8_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_25_8_3_opt-Release-4f62eb68ba0e2ed87632.json",
+					"name" : "snova_SNOVA_25_8_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_29_6_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_29_6_5_opt-Release-a5a1868336ee474280af.json",
+					"name" : "snova_SNOVA_29_6_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_17_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_17_2_opt-Release-ad6af266ab671696cb57.json",
+					"name" : "snova_SNOVA_37_17_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_8_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_8_4_opt-Release-0c9371061a69daaa93b0.json",
+					"name" : "snova_SNOVA_37_8_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_49_11_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_49_11_3_opt-Release-8c0ef8d4e957834c5cc1.json",
+					"name" : "snova_SNOVA_49_11_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_56_25_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_56_25_2_opt-Release-6f8389188a3d7bd571cd.json",
+					"name" : "snova_SNOVA_56_25_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_60_10_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_60_10_4_opt-Release-1696544f2747db4041ce.json",
+					"name" : "snova_SNOVA_60_10_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_kem-Release-ff95765fb527b006fbec.json",
+					"name" : "speed_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig-Release-fb22150f2b179fdedbc6.json",
+					"name" : "speed_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig_stfl-Release-fb2d784df726d7276eab.json",
+					"name" : "speed_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128f_simple_clean-Release-5bbdd42dec9fd0b4a0a5.json",
+					"name" : "sphincs_sha2_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128s_simple_clean-Release-3d4ee672a16d057cfa01.json",
+					"name" : "sphincs_sha2_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192f_simple_clean-Release-c35ca9373c09b85c4d03.json",
+					"name" : "sphincs_sha2_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192s_simple_clean-Release-88b4ed9df1f70cc093ab.json",
+					"name" : "sphincs_sha2_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256f_simple_clean-Release-f856aae5893bbbfdb307.json",
+					"name" : "sphincs_sha2_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256s_simple_clean-Release-18518720d3be2d788a06.json",
+					"name" : "sphincs_sha2_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128f_simple_clean-Release-f5c715abd703bb81605f.json",
+					"name" : "sphincs_shake_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128s_simple_clean-Release-fa19032968810ec88d5e.json",
+					"name" : "sphincs_shake_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192f_simple_clean-Release-4c4682ef104b8b2c9c64.json",
+					"name" : "sphincs_shake_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192s_simple_clean-Release-5a89e6eee441b8f65b9a.json",
+					"name" : "sphincs_shake_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256f_simple_clean-Release-18d6ae28017fe7d145f0.json",
+					"name" : "sphincs_shake_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256s_simple_clean-Release-2ef16c2422ce95d26aca.json",
+					"name" : "sphincs_shake_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem-Release-fecd98d0421d19f5af76.json",
+					"name" : "test_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem_mem-Release-af6c39d50208ef935561.json",
+					"name" : "test_kem_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig-Release-db2bea2e2a05e55ab2f3.json",
+					"name" : "test_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_mem-Release-a93dfaf1de185bbf4823.json",
+					"name" : "test_sig_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_stfl-Release-aca5bb12367883ec4c9b.json",
+					"name" : "test_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9abb48468423c265e5a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_ref-Release-3cca7bf7b642eca66cf4.json",
+					"name" : "uov_ov_III_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_skc_ref-Release-2fad4dfc8640e621df6f.json",
+					"name" : "uov_ov_III_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_ref-Release-0139f52fd82c5bf10570.json",
+					"name" : "uov_ov_III_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_ref-Release-b7c421992ceb67222c94.json",
+					"name" : "uov_ov_Ip_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_skc_ref-Release-3e6b76186199af257704.json",
+					"name" : "uov_ov_Ip_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_ref-Release-a1ee6e7cb34ef8951578.json",
+					"name" : "uov_ov_Ip_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_ref-Release-7009cdbefcac48ba99c2.json",
+					"name" : "uov_ov_Is_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_skc_ref-Release-bd6310b8edbed7b1aee9.json",
+					"name" : "uov_ov_Is_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_ref-Release-e05d0ba2a7c655214f0f.json",
+					"name" : "uov_ov_Is_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_ref-Release-2ee18371607ba2df3569.json",
+					"name" : "uov_ov_V_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_skc_ref-Release-9bf88370d33aecf9fe16.json",
+					"name" : "uov_ov_V_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_ref-Release-9debc5046415e4c97309.json",
+					"name" : "uov_ov_V_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_kem-Release-7ec7ef8703f3403a2ba2.json",
+					"name" : "vectors_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_sig-Release-b2b5ce38bda226cf6ef2.json",
+					"name" : "vectors_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600_plain64::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600_plain64-Release-3dd4d0762b89eaaf76cc.json",
+					"name" : "xkcp_low_keccakp_1600_plain64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600times4_serial::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600times4_serial-Release-4b324082bcf6e9c77900.json",
+					"name" : "xkcp_low_keccakp_1600times4_serial",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						123
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-MinSizeRel-64c2e93f65b578691f44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						87,
+						88
+					]
+				},
+				{
+					"build" : "src/common",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.common-MinSizeRel-31b099629783a692f917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						12,
+						63
+					]
+				},
+				{
+					"build" : "src/common/sha3/xkcp_low",
+					"jsonFile" : "directory-src.common.sha3.xkcp_low-MinSizeRel-28bd695c688620c969ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/common/sha3/xkcp_low",
+					"targetIndexes" : 
+					[
+						138,
+						139
+					]
+				},
+				{
+					"build" : "src/kem/frodokem",
+					"jsonFile" : "directory-src.kem.frodokem-MinSizeRel-7482f758b269f0464034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/frodokem",
+					"targetIndexes" : 
+					[
+						61,
+						62
+					]
+				},
+				{
+					"build" : "src/kem/ntruprime",
+					"jsonFile" : "directory-src.kem.ntruprime-MinSizeRel-e68d7c003c1dab8cc232.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntruprime",
+					"targetIndexes" : 
+					[
+						86
+					]
+				},
+				{
+					"build" : "src/kem/ntru",
+					"jsonFile" : "directory-src.kem.ntru-MinSizeRel-5a92d0b560f1e022de27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntru",
+					"targetIndexes" : 
+					[
+						80,
+						81,
+						82,
+						83,
+						84,
+						85
+					]
+				},
+				{
+					"build" : "src/kem/classic_mceliece",
+					"jsonFile" : "directory-src.kem.classic_mceliece-MinSizeRel-49606f72d619af674abe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/classic_mceliece",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/kem/kyber",
+					"jsonFile" : "directory-src.kem.kyber-MinSizeRel-991dfb3c1c7021b7907c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/kyber",
+					"targetIndexes" : 
+					[
+						67,
+						68,
+						69
+					]
+				},
+				{
+					"build" : "src/kem/ml_kem",
+					"jsonFile" : "directory-src.kem.ml_kem-MinSizeRel-78863c5d6b9e3394a3d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ml_kem",
+					"targetIndexes" : 
+					[
+						77,
+						78,
+						79
+					]
+				},
+				{
+					"build" : "src/sig/ml_dsa",
+					"jsonFile" : "directory-src.sig.ml_dsa-MinSizeRel-64a46dd5b6f31e087d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/ml_dsa",
+					"targetIndexes" : 
+					[
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"build" : "src/sig/falcon",
+					"jsonFile" : "directory-src.sig.falcon-MinSizeRel-efb78a5494ba24e4ea15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/falcon",
+					"targetIndexes" : 
+					[
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
+					]
+				},
+				{
+					"build" : "src/sig/sphincs",
+					"jsonFile" : "directory-src.sig.sphincs-MinSizeRel-ee132ce169d3514c6b65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/sphincs",
+					"targetIndexes" : 
+					[
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117
+					]
+				},
+				{
+					"build" : "src/sig/mayo",
+					"jsonFile" : "directory-src.sig.mayo-MinSizeRel-1ed65685ecb0ec678c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/mayo",
+					"targetIndexes" : 
+					[
+						70,
+						71,
+						72,
+						73
+					]
+				},
+				{
+					"build" : "src/sig/cross",
+					"jsonFile" : "directory-src.sig.cross-MinSizeRel-b20f11f6d40c2c251221.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/cross",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"build" : "src/sig/uov",
+					"jsonFile" : "directory-src.sig.uov-MinSizeRel-46101a8050a4f82a6755.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/uov",
+					"targetIndexes" : 
+					[
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135
+					]
+				},
+				{
+					"build" : "src/sig/snova",
+					"jsonFile" : "directory-src.sig.snova-MinSizeRel-8923f3b6e60dcfab5bd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/snova",
+					"targetIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102
+					]
+				},
+				{
+					"build" : "src/sig/slh_dsa",
+					"jsonFile" : "directory-src.sig.slh_dsa-MinSizeRel-caa91f3a1958fac39610.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/slh_dsa",
+					"targetIndexes" : 
+					[
+						90
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-MinSizeRel-74d1b11f0521a8d27dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						49,
+						50,
+						51,
+						52,
+						64,
+						65,
+						66,
+						89,
+						103,
+						104,
+						105,
+						118,
+						119,
+						120,
+						121,
+						122,
+						136,
+						137
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "liboqs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-538f9cd66cf4e64ef551.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-f0afc0caf606e1a77271.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864_clean-MinSizeRel-9112e6fdfd0e95c2d4e5.json",
+					"name" : "classic_mceliece_348864_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864f_clean-MinSizeRel-8374d49dc09f92390695.json",
+					"name" : "classic_mceliece_348864f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896_clean-MinSizeRel-7e611679e2de422cd92e.json",
+					"name" : "classic_mceliece_460896_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896f_clean-MinSizeRel-fb48a98e9d62375e7ba2.json",
+					"name" : "classic_mceliece_460896f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128_clean-MinSizeRel-c5d607ce4549827f6b11.json",
+					"name" : "classic_mceliece_6688128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128f_clean-MinSizeRel-3fbda3d1bba1a55d017f.json",
+					"name" : "classic_mceliece_6688128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119_clean-MinSizeRel-cdd762bc144bc9c03c41.json",
+					"name" : "classic_mceliece_6960119_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119f_clean-MinSizeRel-f0b62efddf3bb5a5c369.json",
+					"name" : "classic_mceliece_6960119f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128_clean-MinSizeRel-eed8369cec5a7910eac2.json",
+					"name" : "classic_mceliece_8192128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128f_clean-MinSizeRel-527d939ebbc4e3f9f7c0.json",
+					"name" : "classic_mceliece_8192128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-MinSizeRel-b17b2bdf88c98931cc82.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_avx2-MinSizeRel-df32182d5ca51e728e57.json",
+					"name" : "cross_rsdp_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_clean-MinSizeRel-cb5c6bf3dd768263c878.json",
+					"name" : "cross_rsdp_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_avx2-MinSizeRel-fac637516b483f6c604c.json",
+					"name" : "cross_rsdp_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_clean-MinSizeRel-267ee1af9cf6ba485c3f.json",
+					"name" : "cross_rsdp_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_avx2-MinSizeRel-093bb184becbe960ec45.json",
+					"name" : "cross_rsdp_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_clean-MinSizeRel-fb19353dc45efb7e88f3.json",
+					"name" : "cross_rsdp_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_avx2-MinSizeRel-f058499e87dc54236266.json",
+					"name" : "cross_rsdp_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_clean-MinSizeRel-c22a1810515234042e50.json",
+					"name" : "cross_rsdp_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_avx2-MinSizeRel-a87fcdc8d72838001c3f.json",
+					"name" : "cross_rsdp_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_clean-MinSizeRel-1512cb9453c57fa78339.json",
+					"name" : "cross_rsdp_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_avx2-MinSizeRel-eccd283d1c79d5fac8b3.json",
+					"name" : "cross_rsdp_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_clean-MinSizeRel-c631288b62e3da428116.json",
+					"name" : "cross_rsdp_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_avx2-MinSizeRel-ac75310ad8fb147b9f67.json",
+					"name" : "cross_rsdp_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_clean-MinSizeRel-5afec026637f65a3aaf9.json",
+					"name" : "cross_rsdp_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_avx2-MinSizeRel-69be1d7145dcb18265eb.json",
+					"name" : "cross_rsdp_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_clean-MinSizeRel-ad84340ae70978dfb32d.json",
+					"name" : "cross_rsdp_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_avx2-MinSizeRel-56e712f99a172519408e.json",
+					"name" : "cross_rsdp_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_clean-MinSizeRel-203d0e503445c0cdd295.json",
+					"name" : "cross_rsdp_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_avx2-MinSizeRel-f8a8b5646074aac235b8.json",
+					"name" : "cross_rsdpg_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_clean-MinSizeRel-12a7f8df51e3e62d828e.json",
+					"name" : "cross_rsdpg_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_avx2-MinSizeRel-18b61584acac4d91797f.json",
+					"name" : "cross_rsdpg_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_clean-MinSizeRel-776daca3582976cb08a5.json",
+					"name" : "cross_rsdpg_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_avx2-MinSizeRel-e0600a269cddc34d28aa.json",
+					"name" : "cross_rsdpg_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_clean-MinSizeRel-c80f060532a24b62f345.json",
+					"name" : "cross_rsdpg_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_avx2-MinSizeRel-5ed67f246752518c3fa8.json",
+					"name" : "cross_rsdpg_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_clean-MinSizeRel-2bb2973dbee0457a5a4f.json",
+					"name" : "cross_rsdpg_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_avx2-MinSizeRel-53f040019c0a0cfb7328.json",
+					"name" : "cross_rsdpg_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_clean-MinSizeRel-a75fcd90219e6e070268.json",
+					"name" : "cross_rsdpg_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_avx2-MinSizeRel-77c4f934abb8f964887e.json",
+					"name" : "cross_rsdpg_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_clean-MinSizeRel-d5cd826b661c7e80616c.json",
+					"name" : "cross_rsdpg_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_avx2-MinSizeRel-445ec6d2b8399675594f.json",
+					"name" : "cross_rsdpg_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_clean-MinSizeRel-e05d5372cd90dc0a498a.json",
+					"name" : "cross_rsdpg_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_avx2-MinSizeRel-839c141ff7ecb12496f6.json",
+					"name" : "cross_rsdpg_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_clean-MinSizeRel-e0b6f566d91332999a02.json",
+					"name" : "cross_rsdpg_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_avx2-MinSizeRel-e703125661926d109e3d.json",
+					"name" : "cross_rsdpg_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_clean-MinSizeRel-e09b5942145077f09c1f.json",
+					"name" : "cross_rsdpg_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "dump_alg_info::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-dump_alg_info-MinSizeRel-d683d6b71bdda8e15106.json",
+					"name" : "dump_alg_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_kem-MinSizeRel-31177041328353967143.json",
+					"name" : "example_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig-MinSizeRel-8997da95027400a1efd3.json",
+					"name" : "example_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig_stfl-MinSizeRel-66b02e0373e77fcccdaf.json",
+					"name" : "example_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_avx2-MinSizeRel-b0cf504b2c1f47baf784.json",
+					"name" : "falcon_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_clean-MinSizeRel-a5c1d6ddb3f22cd348ed.json",
+					"name" : "falcon_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_avx2-MinSizeRel-ffee807c1a42d382f99e.json",
+					"name" : "falcon_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_clean-MinSizeRel-4a85da605c76b8a96e85.json",
+					"name" : "falcon_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_avx2-MinSizeRel-4273a096d94967d0125f.json",
+					"name" : "falcon_padded_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_clean-MinSizeRel-885a17d89cb9d99800a1.json",
+					"name" : "falcon_padded_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_avx2-MinSizeRel-016d093ed204caa7b596.json",
+					"name" : "falcon_padded_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_clean-MinSizeRel-c9894a2154bc8195e326.json",
+					"name" : "falcon_padded_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem-MinSizeRel-8d5dbdd60215b28c4f59.json",
+					"name" : "frodokem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem_avx2::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem_avx2-MinSizeRel-5a3cf0f4b92944dd167b.json",
+					"name" : "frodokem_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "internal::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-internal-MinSizeRel-1bf0d795e016890170c8.json",
+					"name" : "internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_kem-MinSizeRel-0a75423ee2d69f945bbc.json",
+					"name" : "kat_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig-MinSizeRel-85ad28a311e684e96d18.json",
+					"name" : "kat_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig_stfl-MinSizeRel-e57c4850b670e31aecc5.json",
+					"name" : "kat_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_1024_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_1024_ref-MinSizeRel-441fbc277f2daa7e37d8.json",
+					"name" : "kyber_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_512_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_512_ref-MinSizeRel-ff7cb75589af1afc3e79.json",
+					"name" : "kyber_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_768_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_768_ref-MinSizeRel-f6f586639cfc93ee2734.json",
+					"name" : "kyber_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_1_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_1_opt-MinSizeRel-972e5fecdc03608cd3e3.json",
+					"name" : "mayo_1_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_2_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_2_opt-MinSizeRel-16e89ae274a3e78a31ff.json",
+					"name" : "mayo_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_3_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_3_opt-MinSizeRel-03bcd954c785fd626e85.json",
+					"name" : "mayo_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_5_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_5_opt-MinSizeRel-24b9fb5f6230851c6a4e.json",
+					"name" : "mayo_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_44_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_44_ref-MinSizeRel-07a2a9a82afdc281e52d.json",
+					"name" : "ml_dsa_44_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_65_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_65_ref-MinSizeRel-8fac75aea004c73ddb10.json",
+					"name" : "ml_dsa_65_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_87_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_87_ref-MinSizeRel-9d598793e566a0469da2.json",
+					"name" : "ml_dsa_87_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_1024_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_1024_ref-MinSizeRel-7f694042c92f89a3acc3.json",
+					"name" : "ml_kem_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_512_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_512_ref-MinSizeRel-b3afe2ffa569f1f61aac.json",
+					"name" : "ml_kem_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_768_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_768_ref-MinSizeRel-ecd2eb14d49bb0875da7.json",
+					"name" : "ml_kem_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048509_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048509_clean-MinSizeRel-d4f1225e93c8231a5998.json",
+					"name" : "ntru_hps2048509_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048677_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048677_clean-MinSizeRel-68dd634326c0bf37dec6.json",
+					"name" : "ntru_hps2048677_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps40961229_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps40961229_clean-MinSizeRel-ce782e78b0ae98fa4a72.json",
+					"name" : "ntru_hps40961229_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps4096821_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps4096821_clean-MinSizeRel-39be458208a34f73ab20.json",
+					"name" : "ntru_hps4096821_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss1373_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss1373_clean-MinSizeRel-0de7209eec9da67d3d62.json",
+					"name" : "ntru_hrss1373_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss701_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss701_clean-MinSizeRel-51ebe9c491c6091e6f55.json",
+					"name" : "ntru_hrss701_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ntruprime_sntrup761_clean::@dc9f56a0c80b55c3676d",
+					"jsonFile" : "target-ntruprime_sntrup761_clean-MinSizeRel-96b82b218621d22e6ef4.json",
+					"name" : "ntruprime_sntrup761_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-MinSizeRel-5dba98bd876812e03582.json",
+					"name" : "oqs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs-internal::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-internal-MinSizeRel-ea451204d69eec93c24e.json",
+					"name" : "oqs-internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "run_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-run_tests-MinSizeRel-8fab70de02f2e0415bf6.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "slh_dsa_c::@d4d5e2426e0a993f67d7",
+					"jsonFile" : "target-slh_dsa_c-MinSizeRel-ba835d931f51234f3415.json",
+					"name" : "slh_dsa_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_esk_opt-MinSizeRel-c5ada6935d7fa4fe99c0.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_opt-MinSizeRel-21d15da8454768ad1370.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_esk_opt-MinSizeRel-81166e95927737902734.json",
+					"name" : "snova_SNOVA_24_5_4_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_opt-MinSizeRel-24eaaa37fdc1c3cc428f.json",
+					"name" : "snova_SNOVA_24_5_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_5_opt-MinSizeRel-405d8d3fd456b7b830cd.json",
+					"name" : "snova_SNOVA_24_5_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_25_8_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_25_8_3_opt-MinSizeRel-9ca964b5f3cf21b71062.json",
+					"name" : "snova_SNOVA_25_8_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_29_6_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_29_6_5_opt-MinSizeRel-2453ad82e420307e0dae.json",
+					"name" : "snova_SNOVA_29_6_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_17_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_17_2_opt-MinSizeRel-fbb597954d0f2b5cd58c.json",
+					"name" : "snova_SNOVA_37_17_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_8_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_8_4_opt-MinSizeRel-d16a6f151bd679eebc72.json",
+					"name" : "snova_SNOVA_37_8_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_49_11_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_49_11_3_opt-MinSizeRel-99736c2925db92f55c4e.json",
+					"name" : "snova_SNOVA_49_11_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_56_25_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_56_25_2_opt-MinSizeRel-eca45e43355815a2066e.json",
+					"name" : "snova_SNOVA_56_25_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_60_10_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_60_10_4_opt-MinSizeRel-0bfb2a58c9a8cab7a885.json",
+					"name" : "snova_SNOVA_60_10_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_kem-MinSizeRel-0dbeebfdadd636daf3a4.json",
+					"name" : "speed_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig-MinSizeRel-50e68b4d011eecbd6928.json",
+					"name" : "speed_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig_stfl-MinSizeRel-f282a509a0526c987202.json",
+					"name" : "speed_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128f_simple_clean-MinSizeRel-a002d2cfba318614b489.json",
+					"name" : "sphincs_sha2_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128s_simple_clean-MinSizeRel-7ddd04153c59a89fd8cb.json",
+					"name" : "sphincs_sha2_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192f_simple_clean-MinSizeRel-2d55b9de9691c3d6f5da.json",
+					"name" : "sphincs_sha2_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192s_simple_clean-MinSizeRel-94eb1fb8220a1e0a917b.json",
+					"name" : "sphincs_sha2_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256f_simple_clean-MinSizeRel-0f7bc94fdd8fb5925564.json",
+					"name" : "sphincs_sha2_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256s_simple_clean-MinSizeRel-f64192482e5f5f92720b.json",
+					"name" : "sphincs_sha2_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128f_simple_clean-MinSizeRel-605ffbda0a716a50e140.json",
+					"name" : "sphincs_shake_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128s_simple_clean-MinSizeRel-4bae1e8aa8b8dec92947.json",
+					"name" : "sphincs_shake_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192f_simple_clean-MinSizeRel-8743a1693e39fd5543db.json",
+					"name" : "sphincs_shake_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192s_simple_clean-MinSizeRel-931d3086ebc18bccc5ce.json",
+					"name" : "sphincs_shake_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256f_simple_clean-MinSizeRel-3f46b955aef71da539bd.json",
+					"name" : "sphincs_shake_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256s_simple_clean-MinSizeRel-0a0f467a7697239c2caf.json",
+					"name" : "sphincs_shake_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem-MinSizeRel-1ee2d38d3d92526f91ab.json",
+					"name" : "test_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem_mem-MinSizeRel-e2de647296562996a689.json",
+					"name" : "test_kem_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig-MinSizeRel-2ba018baee0479045b46.json",
+					"name" : "test_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_mem-MinSizeRel-8429f250b68d0b1503ad.json",
+					"name" : "test_sig_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_stfl-MinSizeRel-433a90b416bf68287c48.json",
+					"name" : "test_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-MinSizeRel-9abb48468423c265e5a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_ref-MinSizeRel-4b20461b86d1a574558d.json",
+					"name" : "uov_ov_III_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_skc_ref-MinSizeRel-c84e85caef6559f6ac7a.json",
+					"name" : "uov_ov_III_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_ref-MinSizeRel-d917164a4fa65c22b70a.json",
+					"name" : "uov_ov_III_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_ref-MinSizeRel-ec84f1b71b79b3d2e71b.json",
+					"name" : "uov_ov_Ip_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_skc_ref-MinSizeRel-4836a657d08749fff885.json",
+					"name" : "uov_ov_Ip_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_ref-MinSizeRel-1a3add060c2eadb6ffbd.json",
+					"name" : "uov_ov_Ip_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_ref-MinSizeRel-62719e12d30edad01f31.json",
+					"name" : "uov_ov_Is_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_skc_ref-MinSizeRel-de9e0fdabddc21f1d4ab.json",
+					"name" : "uov_ov_Is_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_ref-MinSizeRel-fff31650fd426e89a5c5.json",
+					"name" : "uov_ov_Is_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_ref-MinSizeRel-b947c2612080528d2034.json",
+					"name" : "uov_ov_V_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_skc_ref-MinSizeRel-8d098fedbebee55829e9.json",
+					"name" : "uov_ov_V_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_ref-MinSizeRel-8930559425b9fa612812.json",
+					"name" : "uov_ov_V_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_kem-MinSizeRel-254e69f5df07d0ae5427.json",
+					"name" : "vectors_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_sig-MinSizeRel-26018d0cd148af0f533d.json",
+					"name" : "vectors_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600_plain64::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600_plain64-MinSizeRel-bad4b5eb0166b2cd9beb.json",
+					"name" : "xkcp_low_keccakp_1600_plain64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600times4_serial::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600times4_serial-MinSizeRel-06e82a1c418cc4cd136e.json",
+					"name" : "xkcp_low_keccakp_1600times4_serial",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						123
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-RelWithDebInfo-8c19ce0571c15adf3002.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						87,
+						88
+					]
+				},
+				{
+					"build" : "src/common",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.common-RelWithDebInfo-31b099629783a692f917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						12,
+						63
+					]
+				},
+				{
+					"build" : "src/common/sha3/xkcp_low",
+					"jsonFile" : "directory-src.common.sha3.xkcp_low-RelWithDebInfo-28bd695c688620c969ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/common/sha3/xkcp_low",
+					"targetIndexes" : 
+					[
+						138,
+						139
+					]
+				},
+				{
+					"build" : "src/kem/frodokem",
+					"jsonFile" : "directory-src.kem.frodokem-RelWithDebInfo-7482f758b269f0464034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/frodokem",
+					"targetIndexes" : 
+					[
+						61,
+						62
+					]
+				},
+				{
+					"build" : "src/kem/ntruprime",
+					"jsonFile" : "directory-src.kem.ntruprime-RelWithDebInfo-e68d7c003c1dab8cc232.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntruprime",
+					"targetIndexes" : 
+					[
+						86
+					]
+				},
+				{
+					"build" : "src/kem/ntru",
+					"jsonFile" : "directory-src.kem.ntru-RelWithDebInfo-5a92d0b560f1e022de27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ntru",
+					"targetIndexes" : 
+					[
+						80,
+						81,
+						82,
+						83,
+						84,
+						85
+					]
+				},
+				{
+					"build" : "src/kem/classic_mceliece",
+					"jsonFile" : "directory-src.kem.classic_mceliece-RelWithDebInfo-49606f72d619af674abe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/classic_mceliece",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/kem/kyber",
+					"jsonFile" : "directory-src.kem.kyber-RelWithDebInfo-991dfb3c1c7021b7907c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/kyber",
+					"targetIndexes" : 
+					[
+						67,
+						68,
+						69
+					]
+				},
+				{
+					"build" : "src/kem/ml_kem",
+					"jsonFile" : "directory-src.kem.ml_kem-RelWithDebInfo-78863c5d6b9e3394a3d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/kem/ml_kem",
+					"targetIndexes" : 
+					[
+						77,
+						78,
+						79
+					]
+				},
+				{
+					"build" : "src/sig/ml_dsa",
+					"jsonFile" : "directory-src.sig.ml_dsa-RelWithDebInfo-64a46dd5b6f31e087d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/ml_dsa",
+					"targetIndexes" : 
+					[
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"build" : "src/sig/falcon",
+					"jsonFile" : "directory-src.sig.falcon-RelWithDebInfo-efb78a5494ba24e4ea15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/falcon",
+					"targetIndexes" : 
+					[
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
+					]
+				},
+				{
+					"build" : "src/sig/sphincs",
+					"jsonFile" : "directory-src.sig.sphincs-RelWithDebInfo-ee132ce169d3514c6b65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/sphincs",
+					"targetIndexes" : 
+					[
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117
+					]
+				},
+				{
+					"build" : "src/sig/mayo",
+					"jsonFile" : "directory-src.sig.mayo-RelWithDebInfo-1ed65685ecb0ec678c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/mayo",
+					"targetIndexes" : 
+					[
+						70,
+						71,
+						72,
+						73
+					]
+				},
+				{
+					"build" : "src/sig/cross",
+					"jsonFile" : "directory-src.sig.cross-RelWithDebInfo-b20f11f6d40c2c251221.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/cross",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"build" : "src/sig/uov",
+					"jsonFile" : "directory-src.sig.uov-RelWithDebInfo-46101a8050a4f82a6755.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/uov",
+					"targetIndexes" : 
+					[
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135
+					]
+				},
+				{
+					"build" : "src/sig/snova",
+					"jsonFile" : "directory-src.sig.snova-RelWithDebInfo-8923f3b6e60dcfab5bd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/snova",
+					"targetIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102
+					]
+				},
+				{
+					"build" : "src/sig/slh_dsa",
+					"jsonFile" : "directory-src.sig.slh_dsa-RelWithDebInfo-caa91f3a1958fac39610.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/sig/slh_dsa",
+					"targetIndexes" : 
+					[
+						90
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-RelWithDebInfo-74d1b11f0521a8d27dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						49,
+						50,
+						51,
+						52,
+						64,
+						65,
+						66,
+						89,
+						103,
+						104,
+						105,
+						118,
+						119,
+						120,
+						121,
+						122,
+						136,
+						137
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "liboqs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-538f9cd66cf4e64ef551.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-f0afc0caf606e1a77271.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864_clean-RelWithDebInfo-7bb8a5eca9b37bdbbfa8.json",
+					"name" : "classic_mceliece_348864_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_348864f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_348864f_clean-RelWithDebInfo-00c359b1b886bb3531e8.json",
+					"name" : "classic_mceliece_348864f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896_clean-RelWithDebInfo-6e06893a28cbd477f783.json",
+					"name" : "classic_mceliece_460896_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_460896f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_460896f_clean-RelWithDebInfo-bd2e6952b7a74aadf1a8.json",
+					"name" : "classic_mceliece_460896f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128_clean-RelWithDebInfo-eb8b662ae53dfae26490.json",
+					"name" : "classic_mceliece_6688128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6688128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6688128f_clean-RelWithDebInfo-532ee4cc3495e8d2ac0e.json",
+					"name" : "classic_mceliece_6688128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119_clean-RelWithDebInfo-5a1553cbb34e1d865b95.json",
+					"name" : "classic_mceliece_6960119_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_6960119f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_6960119f_clean-RelWithDebInfo-9c502eb072a6d0b08957.json",
+					"name" : "classic_mceliece_6960119f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128_clean-RelWithDebInfo-0bb4e1d25742307dd2b1.json",
+					"name" : "classic_mceliece_8192128_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "classic_mceliece_8192128f_clean::@9a846f10e3efeba57a99",
+					"jsonFile" : "target-classic_mceliece_8192128f_clean-RelWithDebInfo-ffc2410caa3beb2a1ac9.json",
+					"name" : "classic_mceliece_8192128f_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-RelWithDebInfo-17d14bfbcd57d301f7ba.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_avx2-RelWithDebInfo-073f98df20bcdaaea24e.json",
+					"name" : "cross_rsdp_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_balanced_clean-RelWithDebInfo-195fc8bad48014b907ee.json",
+					"name" : "cross_rsdp_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_avx2-RelWithDebInfo-002502e96bfb78839225.json",
+					"name" : "cross_rsdp_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_fast_clean-RelWithDebInfo-a67da8805434afc3e8b3.json",
+					"name" : "cross_rsdp_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_avx2-RelWithDebInfo-8734505aac1272a3921e.json",
+					"name" : "cross_rsdp_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_128_small_clean-RelWithDebInfo-e5e179dc3fea0fc06ebb.json",
+					"name" : "cross_rsdp_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_avx2-RelWithDebInfo-c27f2411d94398ecf319.json",
+					"name" : "cross_rsdp_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_balanced_clean-RelWithDebInfo-e0e15b8b33d999e4d091.json",
+					"name" : "cross_rsdp_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_avx2-RelWithDebInfo-85a6ecd6ad186e13fe5e.json",
+					"name" : "cross_rsdp_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_fast_clean-RelWithDebInfo-a5b56a17a6739e3560d8.json",
+					"name" : "cross_rsdp_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_avx2-RelWithDebInfo-5e3e93e1e6b3762c21b8.json",
+					"name" : "cross_rsdp_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_192_small_clean-RelWithDebInfo-94b560863aacce08ff35.json",
+					"name" : "cross_rsdp_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_avx2-RelWithDebInfo-d2252647b3bb2865ecf7.json",
+					"name" : "cross_rsdp_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_balanced_clean-RelWithDebInfo-b4f09ee4ddf4ad72ce5e.json",
+					"name" : "cross_rsdp_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_avx2-RelWithDebInfo-28e4d4508f4fe98788b7.json",
+					"name" : "cross_rsdp_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_fast_clean-RelWithDebInfo-cf2f8aa9cee6b6d284ad.json",
+					"name" : "cross_rsdp_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_avx2-RelWithDebInfo-fefad992482cdfcfc754.json",
+					"name" : "cross_rsdp_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdp_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdp_256_small_clean-RelWithDebInfo-cd09ef04d6b3f2b0861b.json",
+					"name" : "cross_rsdp_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_avx2-RelWithDebInfo-75eaacf0eb769633e390.json",
+					"name" : "cross_rsdpg_128_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_balanced_clean-RelWithDebInfo-303480d134e1a78edb5d.json",
+					"name" : "cross_rsdpg_128_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_avx2-RelWithDebInfo-86b194f17776c2bd7b47.json",
+					"name" : "cross_rsdpg_128_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_fast_clean-RelWithDebInfo-cc5267f571b3be9a18e5.json",
+					"name" : "cross_rsdpg_128_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_avx2-RelWithDebInfo-00bdcb88e8a991fb2be8.json",
+					"name" : "cross_rsdpg_128_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_128_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_128_small_clean-RelWithDebInfo-d367a6e883d8e4b7b7f9.json",
+					"name" : "cross_rsdpg_128_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_avx2-RelWithDebInfo-e0349c7815c7bdf433a3.json",
+					"name" : "cross_rsdpg_192_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_balanced_clean-RelWithDebInfo-63f53369c0946dbc2861.json",
+					"name" : "cross_rsdpg_192_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_avx2-RelWithDebInfo-7c64942e8bbc8d3eb64c.json",
+					"name" : "cross_rsdpg_192_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_fast_clean-RelWithDebInfo-fbd3fa00455ca1fbe7f3.json",
+					"name" : "cross_rsdpg_192_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_avx2-RelWithDebInfo-37b6cc0b6638ad9581bd.json",
+					"name" : "cross_rsdpg_192_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_192_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_192_small_clean-RelWithDebInfo-7f42f8cf0673c776ceaa.json",
+					"name" : "cross_rsdpg_192_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_avx2-RelWithDebInfo-ed50a5d974799337bb5b.json",
+					"name" : "cross_rsdpg_256_balanced_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_balanced_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_balanced_clean-RelWithDebInfo-34b0782b891c795ea436.json",
+					"name" : "cross_rsdpg_256_balanced_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_avx2-RelWithDebInfo-13b03f85549cfc0f30fe.json",
+					"name" : "cross_rsdpg_256_fast_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_fast_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_fast_clean-RelWithDebInfo-9335ad1b9f9ab6526640.json",
+					"name" : "cross_rsdpg_256_fast_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_avx2::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_avx2-RelWithDebInfo-77e9da1d1614ba7ba8c2.json",
+					"name" : "cross_rsdpg_256_small_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "cross_rsdpg_256_small_clean::@c118a0251416d742c6d7",
+					"jsonFile" : "target-cross_rsdpg_256_small_clean-RelWithDebInfo-2b2b511cc2c0553ec541.json",
+					"name" : "cross_rsdpg_256_small_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "dump_alg_info::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-dump_alg_info-RelWithDebInfo-d6f1c410a652d9df04e9.json",
+					"name" : "dump_alg_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_kem-RelWithDebInfo-bda909db0a16c18623c6.json",
+					"name" : "example_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig-RelWithDebInfo-005bad09005d7d03438b.json",
+					"name" : "example_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "example_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-example_sig_stfl-RelWithDebInfo-2ebe2270dd95b7f5f2ac.json",
+					"name" : "example_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_avx2-RelWithDebInfo-adde27c82a048d17454d.json",
+					"name" : "falcon_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_1024_clean-RelWithDebInfo-924a1bbdb2b51fceb868.json",
+					"name" : "falcon_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_avx2-RelWithDebInfo-7eb38458365c17e5f832.json",
+					"name" : "falcon_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_512_clean-RelWithDebInfo-31aeb272e2c5fef58e6b.json",
+					"name" : "falcon_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_avx2-RelWithDebInfo-43fc107627ef5b02b00a.json",
+					"name" : "falcon_padded_1024_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_1024_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_1024_clean-RelWithDebInfo-2e3c355123c07a1a4a69.json",
+					"name" : "falcon_padded_1024_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_avx2::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_avx2-RelWithDebInfo-e13078531991f95bfe92.json",
+					"name" : "falcon_padded_512_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "falcon_padded_512_clean::@58da9a07c5c33b5ccd2b",
+					"jsonFile" : "target-falcon_padded_512_clean-RelWithDebInfo-5a492c2207ab289ed939.json",
+					"name" : "falcon_padded_512_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem-RelWithDebInfo-56c16deb8e48b321a3a2.json",
+					"name" : "frodokem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "frodokem_avx2::@e602fb8bd2643d174228",
+					"jsonFile" : "target-frodokem_avx2-RelWithDebInfo-ead6429a6247dbd46998.json",
+					"name" : "frodokem_avx2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "internal::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-internal-RelWithDebInfo-25ce30fad5050349e666.json",
+					"name" : "internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_kem-RelWithDebInfo-19ebfc6ea45442738418.json",
+					"name" : "kat_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig-RelWithDebInfo-461ff0ec5c826f1b23a1.json",
+					"name" : "kat_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "kat_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-kat_sig_stfl-RelWithDebInfo-74f0fdeff520acbe77a0.json",
+					"name" : "kat_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_1024_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_1024_ref-RelWithDebInfo-ec6bc66f8b9147cd1121.json",
+					"name" : "kyber_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_512_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_512_ref-RelWithDebInfo-98799af454d2127c79d9.json",
+					"name" : "kyber_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "kyber_768_ref::@1211926cef22de40457e",
+					"jsonFile" : "target-kyber_768_ref-RelWithDebInfo-7bf832eef15c194c85ea.json",
+					"name" : "kyber_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_1_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_1_opt-RelWithDebInfo-501cbdeb0e8a83e04fca.json",
+					"name" : "mayo_1_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_2_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_2_opt-RelWithDebInfo-f43be4b664791a4de31c.json",
+					"name" : "mayo_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_3_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_3_opt-RelWithDebInfo-96b164e77e645f3a76c3.json",
+					"name" : "mayo_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mayo_5_opt::@d85bda93d42bf21dccba",
+					"jsonFile" : "target-mayo_5_opt-RelWithDebInfo-6259aed8a43902723186.json",
+					"name" : "mayo_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_44_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_44_ref-RelWithDebInfo-a2ae6fb157759352ffd0.json",
+					"name" : "ml_dsa_44_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_65_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_65_ref-RelWithDebInfo-4e3df900d443a6211df2.json",
+					"name" : "ml_dsa_65_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ml_dsa_87_ref::@92df3029a17980f9dea3",
+					"jsonFile" : "target-ml_dsa_87_ref-RelWithDebInfo-d41b6e10b6cdeff6862c.json",
+					"name" : "ml_dsa_87_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_1024_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_1024_ref-RelWithDebInfo-999b323b1e3980561bec.json",
+					"name" : "ml_kem_1024_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_512_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_512_ref-RelWithDebInfo-74a0263c6b6ee04be13d.json",
+					"name" : "ml_kem_512_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ml_kem_768_ref::@a33390aeffc8ecb31e6f",
+					"jsonFile" : "target-ml_kem_768_ref-RelWithDebInfo-61620fab6226a71dc93d.json",
+					"name" : "ml_kem_768_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048509_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048509_clean-RelWithDebInfo-cbb5a11f9d56843fd3cb.json",
+					"name" : "ntru_hps2048509_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps2048677_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps2048677_clean-RelWithDebInfo-20d6e44a80eba30d4060.json",
+					"name" : "ntru_hps2048677_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps40961229_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps40961229_clean-RelWithDebInfo-4be2d5331b715c252b5f.json",
+					"name" : "ntru_hps40961229_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hps4096821_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hps4096821_clean-RelWithDebInfo-682205935257695ee66d.json",
+					"name" : "ntru_hps4096821_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss1373_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss1373_clean-RelWithDebInfo-0fe7b6e0bbee02367692.json",
+					"name" : "ntru_hrss1373_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ntru_hrss701_clean::@4acb2a0f4103808b451c",
+					"jsonFile" : "target-ntru_hrss701_clean-RelWithDebInfo-9e175216545a92aef572.json",
+					"name" : "ntru_hrss701_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ntruprime_sntrup761_clean::@dc9f56a0c80b55c3676d",
+					"jsonFile" : "target-ntruprime_sntrup761_clean-RelWithDebInfo-8235e199debb60f570eb.json",
+					"name" : "ntruprime_sntrup761_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-RelWithDebInfo-d1d6c1f65d4f323553ca.json",
+					"name" : "oqs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqs-internal::@145eef247bfb46b6828c",
+					"jsonFile" : "target-oqs-internal-RelWithDebInfo-a41a8c055ab0d28e9af0.json",
+					"name" : "oqs-internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "run_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-run_tests-RelWithDebInfo-8fab70de02f2e0415bf6.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "slh_dsa_c::@d4d5e2426e0a993f67d7",
+					"jsonFile" : "target-slh_dsa_c-RelWithDebInfo-a8057c0b5c5ea38da602.json",
+					"name" : "slh_dsa_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_esk_opt-RelWithDebInfo-98001f99a33b9efa2403.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_SHAKE_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_SHAKE_opt-RelWithDebInfo-1aa40502729f89abe2f2.json",
+					"name" : "snova_SNOVA_24_5_4_SHAKE_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_esk_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_esk_opt-RelWithDebInfo-6264116f56e65ffd6bb0.json",
+					"name" : "snova_SNOVA_24_5_4_esk_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_4_opt-RelWithDebInfo-212b79cfef7dab5ed7a4.json",
+					"name" : "snova_SNOVA_24_5_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_24_5_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_24_5_5_opt-RelWithDebInfo-94beadb18e49e8cce708.json",
+					"name" : "snova_SNOVA_24_5_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_25_8_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_25_8_3_opt-RelWithDebInfo-421c142c7ad82c6f8a86.json",
+					"name" : "snova_SNOVA_25_8_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_29_6_5_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_29_6_5_opt-RelWithDebInfo-9406706c0d609cdbb134.json",
+					"name" : "snova_SNOVA_29_6_5_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_17_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_17_2_opt-RelWithDebInfo-04ca5a5cf750923f6087.json",
+					"name" : "snova_SNOVA_37_17_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_37_8_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_37_8_4_opt-RelWithDebInfo-3c1ff02a6e015fa92c2c.json",
+					"name" : "snova_SNOVA_37_8_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_49_11_3_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_49_11_3_opt-RelWithDebInfo-7cd19cdbcb9faa881da5.json",
+					"name" : "snova_SNOVA_49_11_3_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_56_25_2_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_56_25_2_opt-RelWithDebInfo-5f592a0de8547b8c360e.json",
+					"name" : "snova_SNOVA_56_25_2_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "snova_SNOVA_60_10_4_opt::@c6aa95f14ef77fa1177d",
+					"jsonFile" : "target-snova_SNOVA_60_10_4_opt-RelWithDebInfo-0515ce92e9abf08b9cd3.json",
+					"name" : "snova_SNOVA_60_10_4_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_kem-RelWithDebInfo-609bfa04737286fe41a9.json",
+					"name" : "speed_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig-RelWithDebInfo-f4ff2e259c89654e9b10.json",
+					"name" : "speed_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "speed_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-speed_sig_stfl-RelWithDebInfo-952a22ab253dfd295f6b.json",
+					"name" : "speed_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128f_simple_clean-RelWithDebInfo-0ad0117ef3f753ea6d53.json",
+					"name" : "sphincs_sha2_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_128s_simple_clean-RelWithDebInfo-2ae847de15a7c386b4b4.json",
+					"name" : "sphincs_sha2_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192f_simple_clean-RelWithDebInfo-3d457b09804f55abf09a.json",
+					"name" : "sphincs_sha2_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_192s_simple_clean-RelWithDebInfo-b2df46e312939d1f6fbb.json",
+					"name" : "sphincs_sha2_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256f_simple_clean-RelWithDebInfo-0f40078d4474cc8c764e.json",
+					"name" : "sphincs_sha2_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_sha2_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_sha2_256s_simple_clean-RelWithDebInfo-e93b8be4c9d538deaad9.json",
+					"name" : "sphincs_sha2_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128f_simple_clean-RelWithDebInfo-d31f6cb068b4c498bfa7.json",
+					"name" : "sphincs_shake_128f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_128s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_128s_simple_clean-RelWithDebInfo-f8792bf152a71b31ce2f.json",
+					"name" : "sphincs_shake_128s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192f_simple_clean-RelWithDebInfo-62c3686d26a29b5d81ed.json",
+					"name" : "sphincs_shake_192f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_192s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_192s_simple_clean-RelWithDebInfo-16e9c7e260f63ba64714.json",
+					"name" : "sphincs_shake_192s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256f_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256f_simple_clean-RelWithDebInfo-2eaae1bbf1274b0424a8.json",
+					"name" : "sphincs_shake_256f_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sphincs_shake_256s_simple_clean::@887c8f71913ce64b5f93",
+					"jsonFile" : "target-sphincs_shake_256s_simple_clean-RelWithDebInfo-5f8fa5f19772b741190b.json",
+					"name" : "sphincs_shake_256s_simple_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem-RelWithDebInfo-9d3682c235eb67ab804f.json",
+					"name" : "test_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_kem_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_kem_mem-RelWithDebInfo-2d2a584a3583d16f6df2.json",
+					"name" : "test_kem_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig-RelWithDebInfo-f57a0ea5c2370c746045.json",
+					"name" : "test_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_mem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_mem-RelWithDebInfo-e9a220e8a439701a430d.json",
+					"name" : "test_sig_mem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "test_sig_stfl::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_sig_stfl-RelWithDebInfo-060041576ac095f25387.json",
+					"name" : "test_sig_stfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-9abb48468423c265e5a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_ref-RelWithDebInfo-04d8a1ef1969a8941815.json",
+					"name" : "uov_ov_III_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_pkc_skc_ref-RelWithDebInfo-cb67ae14d8432a631dfc.json",
+					"name" : "uov_ov_III_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_III_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_III_ref-RelWithDebInfo-193036084f4911d92f39.json",
+					"name" : "uov_ov_III_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_ref-RelWithDebInfo-5e98f4ea16949332cdfe.json",
+					"name" : "uov_ov_Ip_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_pkc_skc_ref-RelWithDebInfo-cee7c08fdb5484784508.json",
+					"name" : "uov_ov_Ip_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Ip_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Ip_ref-RelWithDebInfo-d482f4193b0ab6802c50.json",
+					"name" : "uov_ov_Ip_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_ref-RelWithDebInfo-43a9587e1997476e6576.json",
+					"name" : "uov_ov_Is_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_pkc_skc_ref-RelWithDebInfo-a36635dca2d2c95f777d.json",
+					"name" : "uov_ov_Is_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_Is_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_Is_ref-RelWithDebInfo-d47847cf091f581b551c.json",
+					"name" : "uov_ov_Is_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_ref-RelWithDebInfo-543231206b49aa6f4537.json",
+					"name" : "uov_ov_V_pkc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_pkc_skc_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_pkc_skc_ref-RelWithDebInfo-a8f061a49c7292d327a8.json",
+					"name" : "uov_ov_V_pkc_skc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "uov_ov_V_ref::@ed3167c41c4814243c58",
+					"jsonFile" : "target-uov_ov_V_ref-RelWithDebInfo-da86b97d1c30bb218150.json",
+					"name" : "uov_ov_V_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_kem::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_kem-RelWithDebInfo-2bc30b39a0a107c41959.json",
+					"name" : "vectors_kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "vectors_sig::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-vectors_sig-RelWithDebInfo-18d59b9d8ec644e297a8.json",
+					"name" : "vectors_sig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600_plain64::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600_plain64-RelWithDebInfo-bcf1d5f4f51e07167cdc.json",
+					"name" : "xkcp_low_keccakp_1600_plain64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xkcp_low_keccakp_1600times4_serial::@1b931b0dce10996175bf",
+					"jsonFile" : "target-xkcp_low_keccakp_1600times4_serial-RelWithDebInfo-134c81c30a990b4832cd.json",
+					"name" : "xkcp_low_keccakp_1600times4_serial",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/vboxuser/Desktop/Ransomware/build",
+		"source" : "C:/Users/vboxuser/Desktop/Ransomware/liboqs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}
