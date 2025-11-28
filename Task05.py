@@ -7,8 +7,8 @@ def hammingEncode(block11): #Receives 11 bits to prepare a 15 block
     dataBits = [0] + block11               # pad so data starts at index 1
     bits = [0]*16                          # 1..15 used, this is the 15 bit block to be prepared
     dataPos = [3,5,6,7,9,10,11,12,13,14,15] # The positions for the data bits are non-powers of 2
-
-    for i,j in enumerate(dataPos,1): # enumerate to use an iterator of dataPos with index i starting in 1 and p having the actual values of dataPos.
+    # enumerate to use an iterator of dataPos with index i starting in 1 and p having the actual values of dataPos.
+    for i,j in enumerate(dataPos,1): 
         bits[j] = dataBits[i] # assigns the values received in block11 to the proper positions in bits
 
     # 2. Redundancy (give proper value to parity bits)
@@ -39,21 +39,23 @@ def hammingDecode(block15): #Receives a properly prepared 15 bit block
 sentMessage = "Contraseña"
 print("String original: "+sentMessage)
 bitString = "".join(f"{ord(c):08b}" for c in sentMessage)
-print("bitString: "+bitString)
 # split into 11-bit blocks
-blocks11 = [list(map(int, bitString[i:i+11])) for i in range(0, len(bitString), 11)] # Returns a list of lists(each being a block of 11 bits). map applies the int() function to all values of bitString and returns the map object, with each bit as an Integer and element of the map.
+
+ # Returns a list of lists(each being a block of 11 bits). map applies the int() function to all
+ # values of bitString and returns the map object, with each bit as an Integer and element of the map.
+blocks11 = [list(map(int, bitString[i:i+11])) for i in range(0, len(bitString), 11)]
 if len(blocks11[-1]) < 11: # Checks the length of the last block to see if it's less than 11
     blocks11[-1] += [0]*(11 - len(blocks11[-1]))  # pad with zeros the last one so it's of 11 bits as well
 
 encodedBlocks = [hammingEncode(block) for block in blocks11] # Apply the function hammingEncode to each block of 11 bits
-
+#print(encodedBlocks)
 # introduce one random bit error in each block
 for block in encodedBlocks:
     block[random.randrange(15)] ^= 1 #random.randrange(15) gives a random value between 0 and 14 and with XOR 1 flip the value of the bit
-
+#print(encodedBlocks)
 decodedBlocks = [hammingDecode(block) for block in encodedBlocks] # Function hammingDecode for each block of 15 in encoded
 decodedBitString = "".join("".join(map(str, block)) for block in decodedBlocks) # "".join to have a String, map(str) to convert to string
-decodedBitString = decodedBitString[:len(bitString)]  # remove padding, not really needed tho
+decodedBitString = decodedBitString[:len(bitString)]  # remove padding, not really needed
 
 receivedMessage = "".join(chr(int(decodedBitString[i:i+8],2)) for i in range(0,len(decodedBitString),8))
 print(receivedMessage)
