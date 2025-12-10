@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 import os
 from platformdirs import user_documents_dir
-from kyber_py.ml_kem import ML_KEM_1024
+from mceliece_kem import ML_MCELIECE_1024_CLASS as ML_KEM_1024
 import hashlib
 import base64
 from dilithium_py.ml_dsa import ML_DSA_44
